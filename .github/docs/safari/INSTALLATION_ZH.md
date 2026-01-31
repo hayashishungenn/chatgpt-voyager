@@ -2,7 +2,7 @@
 
 [English](INSTALLATION.md) | 简体中文
 
-在 Safari 上安装 Gemini Voyager 的简单指南。
+在 Safari 上安装 ChatGPT Voyager 的简单指南。
 
 ## 系统要求
 
@@ -16,12 +16,12 @@
 
 ### 1. 下载
 
-从 [GitHub Releases](https://github.com/Nagi-ovo/gemini-voyager/releases) 下载最新的 `gemini-voyager-safari-vX.Y.Z.zip`。
+从 [GitHub Releases](https://github.com/hayashishungenn/chatgpt-voyager/releases) 下载最新的 `chatgpt-voyager-safari-vX.Y.Z.zip`。
 
 ### 2. 解压
 
 ```bash
-unzip gemini-voyager-safari-vX.Y.Z.zip
+unzip chatgpt-voyager-safari-vX.Y.Z.zip
 ```
 
 会得到一个 `dist_safari/` 文件夹。
@@ -31,10 +31,10 @@ unzip gemini-voyager-safari-vX.Y.Z.zip
 Safari 需要将扩展转换为 Xcode 项目：
 
 ```bash
-xcrun safari-web-extension-converter dist_safari --macos-only --app-name "Gemini Voyager"
+xcrun safari-web-extension-converter dist_safari --macos-only --app-name "ChatGPT Voyager"
 ```
 
-这会创建一个包含 Xcode 项目的 `Gemini Voyager/` 文件夹。
+这会创建一个包含 Xcode 项目的 `ChatGPT Voyager/` 文件夹。
 
 **💡 提示：** 如果提示 `xcrun: command not found`，请先安装 Xcode Command Line Tools：
 
@@ -45,7 +45,7 @@ xcode-select --install
 ### 4. 在 Xcode 中打开并运行
 
 ```bash
-open "Gemini Voyager/Gemini Voyager.xcodeproj"
+open "ChatGPT Voyager/ChatGPT Voyager.xcodeproj"
 ```
 
 在 Xcode 中：
@@ -63,8 +63,8 @@ Safari 会自动打开并加载扩展。
 
 1. 打开 **Safari → 设置**（或偏好设置）
 2. 前往 **扩展** 标签页
-3. 勾选 **Gemini Voyager** 启用
-4. 访问 [Gemini](https://gemini.google.com) 测试
+3. 勾选 **ChatGPT Voyager** 启用
+4. 访问 [ChatGPT](https://ChatGPT.google.com) 测试
 
 完成！🎉
 
@@ -78,8 +78,8 @@ Safari 会自动打开并加载扩展。
 
 ### 需要调试？
 
-- **查看日志：** Safari → 开发 → Web Extension Background Pages → Gemini Voyager
-- **检查页面：** 在 Gemini 页面右键 → 检查元素
+- **查看日志：** Safari → 开发 → Web Extension Background Pages → ChatGPT Voyager
+- **检查页面：** 在 ChatGPT 页面右键 → 检查元素
 
 ### 需要 Apple Developer 账号吗？
 
@@ -98,10 +98,11 @@ Safari 会自动打开并加载扩展。
 
 ## 卸载
 
-1. Safari → 设置 → 扩展 → 取消勾选 Gemini Voyager
+1. Safari → 设置 → 扩展 → 取消勾选 ChatGPT Voyager
 2. 从应用程序文件夹删除该应用
-3. 清理：`rm -rf "Gemini Voyager" dist_safari`
+3. 清理：`rm -rf "ChatGPT Voyager" dist_safari`
 
 ---
 
-**需要帮助？** 在 [GitHub](https://github.com/Nagi-ovo/gemini-voyager/issues) 提交 Issue
+**需要帮助？** 在 [GitHub](https://github.com/hayashishungenn/chatgpt-voyager/issues) 提交 Issue
+

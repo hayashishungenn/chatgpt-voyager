@@ -1,10 +1,10 @@
 # Sincronización de Título de Pestaña
 
-Sincroniza automáticamente el título de la pestaña del navegador con el título de la conversación actual de Gemini.
+Sincroniza automáticamente el título de la pestaña del navegador con el título de la conversación actual de ChatGPT.
 
 ## Introducción
 
-- **Sincronización en Tiempo Real**: Cuando el título de la conversación cambia (por ejemplo, la IA genera un nuevo título o lo renombras manualmente), el título de la pestaña del navegador no será solo "Gemini", sino que se actualizará inmediatamente al contenido específico de la conversación.
+- **Sincronización en Tiempo Real**: Cuando el título de la conversación cambia (por ejemplo, la IA genera un nuevo título o lo renombras manualmente), el título de la pestaña del navegador no será solo "ChatGPT", sino que se actualizará inmediatamente al contenido específico de la conversación.
 - **Soporte Multipágina**: Soporta perfectamente páginas de conversación ordinarias, conversaciones de Gem y entornos de múltiples cuentas.
 - **Control de Interruptor**: Si no te gusta esta función, puedes desactivarla en cualquier momento en la sección "Opciones Generales" del panel de configuración.
 
@@ -15,8 +15,9 @@ Sincroniza automáticamente el título de la pestaña del navegador con el títu
 ## Cómo Usar
 
 1. Después de instalar la extensión, esta función está activada por defecto.
-2. Abre cualquier conversación de Gemini, observa el título de la pestaña del navegador, cambiará automáticamente al título de la conversación actual.
+2. Abre cualquier conversación de ChatGPT, observa el título de la pestaña del navegador, cambiará automáticamente al título de la conversación actual.
 3. Para desactivar:
    - Haz clic en el icono de la extensión para abrir el panel de configuración.
    - Busca "Opciones Generales" (General Options).
    - Desactiva el interruptor "Sincronizar título de pestaña con conversación" (Update Tab Title).
+

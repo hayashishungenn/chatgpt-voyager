@@ -24,4 +24,5 @@ Next time you need it, don't type it again.
 Open the manager, search by tag or keyword, and click to insert.
 One click. Infinite leverage.
 
-![Prompt Manager](/assets/gemini-prompt-manager.png)
+![Prompt Manager](/assets/ChatGPT-prompt-manager.png)
+

@@ -20,8 +20,8 @@
 
 <div style="display: flex; gap: 20px; margin-top: 20px; flex-wrap: wrap;" dir="rtl">
   <div style="flex: 1; min-width: 300px; text-align: center;">
-    <p><b>Gemini</b></p>
-    <img src="/assets/gemini-folders.png" alt="مجلدات Gemini" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);"/>
+    <p><b>ChatGPT</b></p>
+    <img src="/assets/ChatGPT-folders.png" alt="مجلدات ChatGPT" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);"/>
   </div>
   <div style="flex: 1; min-width: 300px; text-align: center;">
     <p><b>ألوان المجلدات</b></p>
@@ -32,3 +32,4 @@
     <img src="/assets/aistudio-folders.png" alt="مجلدات AI Studio" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);"/>
   </div>
 </div>
+

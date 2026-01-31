@@ -80,7 +80,7 @@ async function fetchGitHubSponsors(token) {
   const headers = {
     'Content-Type': 'application/json',
     Authorization: `Bearer ${token}`,
-    'User-Agent': 'gemini-voyager-sponsor-bot',
+    'User-Agent': 'chatgpt-voyager-sponsor-bot',
   };
 
   while (true) {
@@ -286,7 +286,7 @@ async function buildSvg({ githubSponsors, afdianSponsors, friends }) {
   const height = boardHeight + outerPadding * 2;
 
   const svg = `<svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img">
-    <title>Gemini Voyager Sponsors</title>
+    <title>ChatGPT Voyager Sponsors</title>
     <defs>
       ${defs.join('\n')}
     </defs>
@@ -440,3 +440,4 @@ main().catch((err) => {
   console.error(err);
   process.exitCode = 1;
 });
+

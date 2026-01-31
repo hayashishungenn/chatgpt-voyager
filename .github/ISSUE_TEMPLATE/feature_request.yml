@@ -1,5 +1,5 @@
 name: '🌠 功能需求 Feature Request'
-description: '需求或建议 | Suggest an idea for Gemini Voyager'
+description: '需求或建议 | Suggest an idea for ChatGPT Voyager'
 title: '[Feature] '
 labels: '🌠 Feature Request'
 body:
@@ -43,3 +43,4 @@ body:
       options:
         - label: '我愿意为该功能贡献代码 / I am willing to contribute code for this feature'
         - label: '💡 其他贡献者可评论 `/claim` 认领此 Issue / Other contributors can comment `/claim` to claim'
+

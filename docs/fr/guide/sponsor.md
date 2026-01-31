@@ -5,7 +5,7 @@
 
 Maintenir des projets open-source est principalement motivé par la passion (et le café) ☕
 
-**[Gemini Voyager](https://github.com/Nagi-ovo/gemini-voyager)** est une extension de navigateur entièrement gratuite et open-source conçue pour améliorer votre expérience Gemini. Si cette extension vous aide à utiliser Gemini plus efficacement, envisagez de soutenir le développement continu et la maintenance de ce projet.
+**[ChatGPT Voyager](https://github.com/hayashishungenn/chatgpt-voyager)** est une extension de navigateur entièrement gratuite et open-source conçue pour améliorer votre expérience ChatGPT. Si cette extension vous aide à utiliser ChatGPT plus efficacement, envisagez de soutenir le développement continu et la maintenance de ce projet.
 
 ---
 
@@ -30,7 +30,7 @@ Maintenir des projets open-source est principalement motivé par la passion (et 
 
 ### 🎙️ Outil Recommandé : Typeless
 
-Je recommande vivement **[Typeless (typeless.com)](https://www.typeless.com/refer?code=MZRYZP1)**, un outil IA de voix-à-texte que j'ai utilisé intensivement durant le développement de Gemini Voyager. L'intégrer dans mon flux quotidien m'a fait gagner un temps énorme et a considérablement boosté ma productivité.
+Je recommande vivement **[Typeless (typeless.com)](https://www.typeless.com/refer?code=MZRYZP1)**, un outil IA de voix-à-texte que j'ai utilisé intensivement durant le développement de ChatGPT Voyager. L'intégrer dans mon flux quotidien m'a fait gagner un temps énorme et a considérablement boosté ma productivité.
 
 > 🎁 **[Rejoignez via mon lien de parrainage](https://www.typeless.com/refer?code=MZRYZP1)** (Code : **`MZRYZP1`**) pour obtenir **$5 de crédits gratuits**. Cela me donne aussi des crédits pour continuer à maintenir ce projet—une façon gratuite de soutenir mon travail ! ❤️
 
@@ -111,3 +111,4 @@ Je recommande vivement **[Typeless (typeless.com)](https://www.typeless.com/refe
 ---
 
 Merci pour votre soutien ! Chaque contribution est un grand encouragement pour moi ❤️
+

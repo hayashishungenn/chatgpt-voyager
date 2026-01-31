@@ -1,10 +1,10 @@
 # Formula Copy
 
-Gemini Voyager makes it effortless to reuse mathematical formulas and scientific symbols. It supports one-click copying of LaTeX source code and Microsoft Word-compatible MathML format.
+ChatGPT Voyager makes it effortless to reuse mathematical formulas and scientific symbols. It supports one-click copying of LaTeX source code and Microsoft Word-compatible MathML format.
 
 ## Introduction
 
-When you ask Gemini to derive formulas or write mathematical expressions, it usually renders them using LaTeX. While beautiful, extracting the source code to use in your own papers, documents, or editors often requires manual effort.
+When you ask ChatGPT to derive formulas or write mathematical expressions, it usually renders them using LaTeX. While beautiful, extracting the source code to use in your own papers, documents, or editors often requires manual effort.
 
 Voyager provides seamless support for this:
 
@@ -14,7 +14,7 @@ Voyager provides seamless support for this:
    - **Copy LaTeX**: Copies standard LaTeX source, ideal for Overleaf, Markdown editors, etc.
    - **Copy MathML**: Copies MathML source, the best format for pasting directly into **Microsoft Word**.
 
-![Formula Copy](/assets/gemini-math-copy.png)
+![Formula Copy](/assets/ChatGPT-math-copy.png)
 
 ## Features
 
@@ -24,5 +24,6 @@ Voyager provides seamless support for this:
 
 ## Usage Tips
 
-- **Academic Writing**: When writing papers in Word, have Gemini derive formulas, then use MathML copy-paste to avoid the hassle of manual entry in the Word Equation Editor.
+- **Academic Writing**: When writing papers in Word, have ChatGPT derive formulas, then use MathML copy-paste to avoid the hassle of manual entry in the Word Equation Editor.
 - **Note Taking**: When taking notes in Obsidian or Notion, simply copy the LaTeX source directly.
+

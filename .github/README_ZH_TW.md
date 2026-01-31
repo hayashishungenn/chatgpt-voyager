@@ -1,10 +1,10 @@
 <div align="center">
   <img src="../public/icon-128.png" alt="logo"/>
-  <h1>Gemini Voyager</h1>
-  <h3>打造屬於你的 Gemini 體驗 ✨</h3>
+  <h1>ChatGPT Voyager</h1>
+  <h3>打造屬於你的 ChatGPT 體驗 ✨</h3>
   <p>
     優雅的時間軸導航、資料夾管理對話、構建專屬提示詞庫。<br>
-    <b>這是 Google Gemini 缺失的那塊拼圖。</b>
+    <b>這是 ChatGPT 缺失的那塊拼圖。</b>
   </p>
   
   <p>
@@ -16,19 +16,19 @@
     <img src="https://img.shields.io/badge/Brave-✓-FB542B?style=flat-square&logo=brave&logoColor=white" alt="Brave">
   </p>
   <p>
-    <img src="https://img.shields.io/github/stars/Nagi-ovo/gemini-voyager?style=flat-square&logo=github" alt="GitHub Star">
-    <img src="https://img.shields.io/github/forks/Nagi-ovo/gemini-voyager?style=flat-square&logo=github" alt="GitHub Fork">
-    <img src="https://img.shields.io/github/v/release/Nagi-ovo/gemini-voyager?style=flat-square&logo=github" alt="最新版本">
-    <img src="https://img.shields.io/github/downloads/Nagi-ovo/gemini-voyager/total?style=flat-square&logo=github" alt="GitHub 下載量">
+    <img src="https://img.shields.io/github/stars/hayashishungenn/chatgpt-voyager?style=flat-square&logo=github" alt="GitHub Star">
+    <img src="https://img.shields.io/github/forks/hayashishungenn/chatgpt-voyager?style=flat-square&logo=github" alt="GitHub Fork">
+    <img src="https://img.shields.io/github/v/release/hayashishungenn/chatgpt-voyager?style=flat-square&logo=github" alt="最新版本">
+    <img src="https://img.shields.io/github/downloads/hayashishungenn/chatgpt-voyager/total?style=flat-square&logo=github" alt="GitHub 下載量">
     <img src="https://img.shields.io/chrome-web-store/users/kjdpnimcnfinmilocccippmododhceol?style=flat-square&logo=google-chrome" alt="Chrome 商店用戶數">
     <img src="https://img.shields.io/chrome-web-store/rating/kjdpnimcnfinmilocccippmododhceol?style=flat-square&logo=google-chrome" alt="Chrome 商店評分">
     <img src="https://img.shields.io/badge/Edge-✓-0078D7?style=flat-square&logo=microsoft-edge" alt="Edge 商店">
-    <img src="https://img.shields.io/amo/users/gemini-voyager?style=flat-square&logo=firefox" alt="Firefox 商店用戶數">
-    <img src="https://img.shields.io/amo/rating/gemini-voyager?style=flat-square&logo=firefox" alt="Firefox 商店評分">
+    <img src="https://img.shields.io/amo/users/chatgpt-voyager?style=flat-square&logo=firefox" alt="Firefox 商店用戶數">
+    <img src="https://img.shields.io/amo/rating/chatgpt-voyager?style=flat-square&logo=firefox" alt="Firefox 商店評分">
   </p>
   <p>
-    <a href="https://trendshift.io/repositories/16094" target="_blank"><img src="https://trendshift.io/api/badge/repositories/16094" alt="Nagi-ovo%2Fgemini-voyager | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
-    <a href="https://www.producthunt.com/products/gemini-voyager?embed=true&amp;utm_source=badge-featured&amp;utm_medium=badge&amp;utm_campaign=badge-gemini-voyager" target="_blank" rel="noopener noreferrer"><img alt="Gemini Voyager - All-in-one Gemini suite: folders, chat export and much more | Product Hunt" width="250" height="54" src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1064704&amp;theme=light&amp;t=1768842096186"></a>
+    <a href="https://trendshift.io/repositories/16094" target="_blank"><img src="https://trendshift.io/api/badge/repositories/16094" alt="Nagi-ovo%2Fchatgpt-voyager | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+    <a href="https://www.producthunt.com/products/chatgpt-voyager?embed=true&amp;utm_source=badge-featured&amp;utm_medium=badge&amp;utm_campaign=badge-chatgpt-voyager" target="_blank" rel="noopener noreferrer"><img alt="ChatGPT Voyager - All-in-one ChatGPT suite: folders, chat export and much more | Product Hunt" width="250" height="54" src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1064704&amp;theme=light&amp;t=1768842096186"></a>
   </p>
   <p align="center">
     ✨ 我們已在 Product Hunt 上線！歡迎來分享你的想法和回饋。❤️
@@ -36,7 +36,7 @@
 </div>
 
 <p align="center">
-  <a href="https://voyager.nagi.fun/zh_TW">📖 文檔</a> • 
+  <a href="https://github.com/hayashishungenn/chatgpt-voyager/zh_TW">📖 文檔</a> • 
   <a href="../README.md">English</a> • 
   <a href="./README_ZH.md">简体中文</a> •
   <a href="./README_JA.md">日本語</a> •
@@ -48,7 +48,7 @@
 </p>
 
 <p align="center">
-    <img src="https://count.getloli.com/@gemini-voyager?name=gemini-voyager&theme=rule34&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=auto" width="400">
+    <img src="https://count.getloli.com/@chatgpt-voyager?name=chatgpt-voyager&theme=rule34&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=auto" width="400">
   </p>
 
 > [!CAUTION]
@@ -56,11 +56,11 @@
 
 ---
 
-## 👋 為什麼開發 Gemini Voyager？
+## 👋 為什麼開發 ChatGPT Voyager？
 
-我們都很喜歡 Gemini，但有時候總覺得它少了一點"秩序感"。
+我們都很喜歡 ChatGPT，但有時候總覺得它少了一點"秩序感"。
 
-這就是我們開發 **Gemini Voyager** 的初衷。它不僅僅是一個工具，更是一個能幫你把 AI 對話變得井井有條、觸手可及的得力助手。無論你是需要處理大量對話的研究人員，還是喜歡收藏代碼片段的開發者，亦或是單純的整理控，Voyager 都是為你準備的。
+這就是我們開發 **ChatGPT Voyager** 的初衷。它不僅僅是一個工具，更是一個能幫你把 AI 對話變得井井有條、觸手可及的得力助手。無論你是需要處理大量對話的研究人員，還是喜歡收藏代碼片段的開發者，亦或是單純的整理控，Voyager 都是為你準備的。
 
 ---
 
@@ -70,38 +70,38 @@
   <img src="../docs/public/assets/teaser.png" alt="teaser"/>
 </div>
 
-查看完整功能，請訪問我們的 [官方文檔](https://voyager.nagi.fun/zh_TW)。
+查看完整功能，請訪問我們的 [官方文檔](https://github.com/hayashishungenn/chatgpt-voyager/zh_TW)。
 
-- **📍 [時間線導航](https://voyager.nagi.fun/zh_TW/guide/timeline)**: 可視化節點，瞬間跳轉訊息，星標重點，管理對話分支。
-- **📂 [資料夾管理](https://voyager.nagi.fun/zh_TW/guide/folders)**: 雙層目錄結構，支持拖拽，讓對話井井有條。
-- **💡 [提示詞庫](https://voyager.nagi.fun/zh_TW/guide/prompts)**: 跨平台同步提示詞，支持 Gemini、AI Studio 及 [自定義網站](https://voyager.nagi.fun/zh_TW/guide/custom-websites)。
-- **💾 [對話導出](https://voyager.nagi.fun/zh_TW/guide/export)**: 支持導出為 JSON、Markdown 或 PDF（含圖片）。
-- **🍌 [NanoBanana](https://voyager.nagi.fun/zh_TW/guide/nanobanana)**: 自動去除 Gemini 生成圖片的無損浮水印。
-- **🧜‍♀️ [Mermaid 渲染](https://voyager.nagi.fun/zh_TW/guide/mermaid)**: 自動渲染流程圖、時序圖等 Mermaid 圖表。
-- **🔬 [Deep Research](https://voyager.nagi.fun/zh_TW/guide/deep-research)**: 一鍵提取 Deep Research 對話的思考過程和研究鏈接。
+- **📍 [時間線導航](https://github.com/hayashishungenn/chatgpt-voyager/zh_TW/guide/timeline)**: 可視化節點，瞬間跳轉訊息，星標重點，管理對話分支。
+- **📂 [資料夾管理](https://github.com/hayashishungenn/chatgpt-voyager/zh_TW/guide/folders)**: 雙層目錄結構，支持拖拽，讓對話井井有條。
+- **💡 [提示詞庫](https://github.com/hayashishungenn/chatgpt-voyager/zh_TW/guide/prompts)**: 跨平台同步提示詞，支持 ChatGPT、AI Studio 及 [自定義網站](https://github.com/hayashishungenn/chatgpt-voyager/zh_TW/guide/custom-websites)。
+- **💾 [對話導出](https://github.com/hayashishungenn/chatgpt-voyager/zh_TW/guide/export)**: 支持導出為 JSON、Markdown 或 PDF（含圖片）。
+- **🍌 [NanoBanana](https://github.com/hayashishungenn/chatgpt-voyager/zh_TW/guide/nanobanana)**: 自動去除 ChatGPT 生成圖片的無損浮水印。
+- **🧜‍♀️ [Mermaid 渲染](https://github.com/hayashishungenn/chatgpt-voyager/zh_TW/guide/mermaid)**: 自動渲染流程圖、時序圖等 Mermaid 圖表。
+- **🔬 [Deep Research](https://github.com/hayashishungenn/chatgpt-voyager/zh_TW/guide/deep-research)**: 一鍵提取 Deep Research 對話的思考過程和研究鏈接。
 - **📐 公式複製**: 一鍵複製 LaTeX 和 MathML (Word) 源碼。
 - **🛠️ 效率工具**:
-  - **[批量刪除](https://voyager.nagi.fun/zh_TW/guide/batch-delete)**: 批量清理對話記錄。
-  - **[引用回覆](https://voyager.nagi.fun/zh_TW/guide/quote-reply)**: 選中對話文本即可一鍵引用回覆。
-  - **[標籤頁標題同步](https://voyager.nagi.fun/zh_TW/guide/tab-title)**: 自動將標籤頁標題設為對話標題。
-  - **[輸入框摺疊](https://voyager.nagi.fun/zh_TW/guide/input-collapse)**: 輸入框自動收納，釋放閱讀空間。
+  - **[批量刪除](https://github.com/hayashishungenn/chatgpt-voyager/zh_TW/guide/batch-delete)**: 批量清理對話記錄。
+  - **[引用回覆](https://github.com/hayashishungenn/chatgpt-voyager/zh_TW/guide/quote-reply)**: 選中對話文本即可一鍵引用回覆。
+  - **[標籤頁標題同步](https://github.com/hayashishungenn/chatgpt-voyager/zh_TW/guide/tab-title)**: 自動將標籤頁標題設為對話標題。
+  - **[輸入框摺疊](https://github.com/hayashishungenn/chatgpt-voyager/zh_TW/guide/input-collapse)**: 輸入框自動收納，釋放閱讀空間。
 
 ---
 
 ## 📥 安裝方式
 
-> ⚠️ 注意：提示詞管理器是唯一支持 Gemini 企業版的功能。
+> ⚠️ 注意：提示詞管理器是唯一支持 ChatGPT 企業版的功能。
 
 <div align="center">
-  <a href="https://chromewebstore.google.com/detail/kjdpnimcnfinmilocccippmododhceol" target="_blank">
+  <a href="https://github.com/hayashishungenn/chatgpt-voyager/releases" target="_blank">
     <img src="https://img.shields.io/badge/Chrome%20應用商店-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Chrome 應用商店" height="36">
   </a>
   &nbsp;&nbsp;
-  <a href="https://microsoftedge.microsoft.com/addons/detail/gemini-voyager/gibmkggjijalcjinbdhcpklodjkhhlne" target="_blank">
+  <a href="https://github.com/hayashishungenn/chatgpt-voyager/releases" target="_blank">
     <img src="https://img.shields.io/badge/Microsoft%20Edge-0078D7?style=for-the-badge&logo=microsoftedge&logoColor=white" alt="Microsoft Edge Add-ons" height="36">
   </a>
   &nbsp;&nbsp;
-  <a href="https://addons.mozilla.org/firefox/addon/gemini-voyager/" target="_blank">
+  <a href="https://github.com/hayashishungenn/chatgpt-voyager/releases" target="_blank">
     <img src="https://img.shields.io/badge/Firefox%20Add--ons-FF7139?style=for-the-badge&logo=firefox&logoColor=white" alt="Firefox Add-ons" height="36">
   </a>
 </div>
@@ -112,19 +112,19 @@
 
 > **商店狀態：** Chrome ✅ · Firefox ✅ · Edge ✅ · Safari（即將推出）
 
-關於 **手動安裝** 或 **開發構建**，請參閱 [安裝指南](https://voyager.nagi.fun/zh_TW/guide/installation)。
+關於 **手動安裝** 或 **開發構建**，請參閱 [安裝指南](https://github.com/hayashishungenn/chatgpt-voyager/zh_TW/guide/installation)。
 
 ---
 
 ## ☕ 支持本項目
 
 <div align="center">
-  <a href="https://github.com/Nagi-ovo/gemini-voyager">
-    <img src="https://raw.githubusercontent.com/Nagi-ovo/gemini-voyager/main/docs/public/assets/sponsors.svg" width="1000px" />
+  <a href="https://github.com/hayashishungenn/chatgpt-voyager">
+    <img src="https://raw.githubusercontent.com/hayashishungenn/chatgpt-voyager/main/docs/public/assets/sponsors.svg" width="1000px" />
   </a>
 </div>
 
-如果 Gemini Voyager 提升了你的體驗，歡迎請我喝杯咖啡。贊助者將被列入致謝名單。❤️
+如果 ChatGPT Voyager 提升了你的體驗，歡迎請我喝杯咖啡。贊助者將被列入致謝名單。❤️
 
 <div align="center">
   <a href="https://www.buymeacoffee.com/Nag1ovo" target="_blank">
@@ -194,11 +194,11 @@
 
 ## 🤝 參與貢獻與開發
 
-[<img src="https://devin.ai/assets/askdeepwiki.png" alt="Ask DeepWiki" height="20"/>](https://deepwiki.com/Nagi-ovo/gemini-voyager)
+[<img src="https://devin.ai/assets/askdeepwiki.png" alt="Ask DeepWiki" height="20"/>](https://deepwiki.com/hayashishungenn/chatgpt-voyager)
 
 歡迎參與貢獻！
 
-- **Issue**：使用 [Bug 報告](https://github.com/Nagi-ovo/gemini-voyager/blob/main/.github/ISSUE_TEMPLATE/bug_report.yml) 或 [功能請求](https://github.com/Nagi-ovo/gemini-voyager/blob/main/.github/ISSUE_TEMPLATE/feature_request.yml) 模板。
+- **Issue**：使用 [Bug 報告](https://github.com/hayashishungenn/chatgpt-voyager/blob/main/.github/ISSUE_TEMPLATE/bug_report.yml) 或 [功能請求](https://github.com/hayashishungenn/chatgpt-voyager/blob/main/.github/ISSUE_TEMPLATE/feature_request.yml) 模板。
 - **Pull Request**：請查看 [貢獻指南](./CONTRIBUTING.md)。
 
 <details>
@@ -224,7 +224,7 @@ bun run build:all
 
 </details>
 
-感謝你讓 Gemini Voyager 變得更好！❤️
+感謝你讓 ChatGPT Voyager 變得更好！❤️
 
 ---
 
@@ -237,13 +237,15 @@ bun run build:all
 ---
 
 <div align="center">
-  <a href="https://www.star-history.com/#Nagi-ovo/gemini-voyager&type=date&legend=top-left">
+  <a href="https://www.star-history.com/#hayashishungenn/chatgpt-voyager&type=date&legend=top-left">
    <picture>
-     <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Nagi-ovo/gemini-voyager&type=date&theme=dark&legend=top-left" />
-     <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=Nagi-ovo/gemini-voyager&type=date&legend=top-left" />
-     <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Nagi-ovo/gemini-voyager&type=date&legend=top-left" />
+     <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=hayashishungenn/chatgpt-voyager&type=date&theme=dark&legend=top-left" />
+     <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=hayashishungenn/chatgpt-voyager&type=date&legend=top-left" />
+     <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=hayashishungenn/chatgpt-voyager&type=date&legend=top-left" />
    </picture>
   </a>
   <p>Made with ❤️ by Jesse Zhang</p>
   <sub>MIT License © 2025</sub>
 </div>
+
+

@@ -22,10 +22,11 @@
 <div style="display: flex; gap: 20px; margin-top: 20px;">
   <div style="flex: 1; text-align: center;">
     <p><b>打开设置</b></p>
-    <img src="/assets/gemini-open-settings-guide.png" alt="打开设置指南" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);"/>
+    <img src="/assets/ChatGPT-open-settings-guide.png" alt="打开设置指南" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);"/>
   </div>
   <div style="flex: 1; text-align: center;">
     <p><b>调整视野</b></p>
-    <img src="/assets/gemini-chatwidth.png" alt="聊天宽度调整" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);"/>
+    <img src="/assets/ChatGPT-chatwidth.png" alt="聊天宽度调整" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);"/>
   </div>
 </div>
+

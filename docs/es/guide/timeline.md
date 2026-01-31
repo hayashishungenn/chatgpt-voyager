@@ -1,7 +1,7 @@
 # Viaje en el Tiempo
 
 Las conversaciones largas son un desastre. Arriba y abajo, perdido.
-Gemini Voyager convierte la conversación en una línea.
+ChatGPT Voyager convierte la conversación en una línea.
 
 ## Ver el Ritmo
 
@@ -22,7 +22,7 @@ Cada punto es una frase. Ese es el pulso de tu conversación.
 
 ¿No quieres usar el ratón? Usa el teclado.
 
-**Es como activar el Modo Vim en Gemini.**
+**Es como activar el Modo Vim en ChatGPT.**
 
 ### Atajos Predeterminados
 
@@ -36,3 +36,4 @@ Cualquier tecla, cualquier combinación. ¿`n`/`p`? ¿`,`/`.`? Tú decides.
 
 En **Modo Flujo**, presionar repetidamente pondrá en cola la animación.
 En **Modo Salto**, respuesta inmediata, velocidad máxima.
+

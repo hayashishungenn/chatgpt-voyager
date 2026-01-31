@@ -2,7 +2,7 @@
 
 **Différentes dimensions, partage fluide**
 
-Élaborez la logique sur le web et implémentez le code dans l'IDE. Gemini Voyager brise les barrières dimensionnelles, dotant instantanément votre IDE du « processus de réflexion » du web.
+Élaborez la logique sur le web et implémentez le code dans l'IDE. ChatGPT Voyager brise les barrières dimensionnelles, dotant instantanément votre IDE du « processus de réflexion » du web.
 
 ## Dites adieu aux allers-retours incessants
 
@@ -34,3 +34,4 @@ Une fois la synchronisation terminée, un fichier `.vscode/AI_CONTEXT_SYNC.md` a
 - **Zéro pollution** : CoBridge gère automatiquement le fichier `.gitignore`, garantissant que vos conversations privées ne sont jamais poussées vers les dépôts Git.
 - **Adapté à l'IA** : Format Markdown complet, rendant la lecture par l'IA de votre IDE aussi fluide que celle d'un manuel d'instructions.
 - **Conseil** : Si la conversation date d'un certain temps, remontez d'abord avec la [Timeline] pour permettre au web de se « remémorer » le contexte afin d'obtenir de meilleurs résultats de synchronisation.
+

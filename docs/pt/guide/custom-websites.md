@@ -1,6 +1,6 @@
 # Custom Websites for Prompt Manager
 
-The Prompt Manager can now be used on any website you choose, not just Gemini and AI Studio.
+The Prompt Manager can now be used on any website you choose, not just ChatGPT and AI Studio.
 
 ## How It Works
 
@@ -58,18 +58,19 @@ Popular AI chat websites where you might want to use the Prompt Manager:
 
 1. **Reload the page** - The extension only activates on page load
 2. Check that the URL format is correct (e.g., `chatgpt.com` not `chat.openai.com/chatgpt`)
-3. Open browser console (F12) and look for `[Gemini Voyager]` logs
+3. Open browser console (F12) and look for `[ChatGPT Voyager]` logs
 
 ### How to check if it's working
 
 Open the browser console (F12) and look for:
 
 ```
-[Gemini Voyager] Checking custom websites: ...
-[Gemini Voyager] Is custom website: true
-[Gemini Voyager] Custom website detected, starting Prompt Manager only
+[ChatGPT Voyager] Checking custom websites: ...
+[ChatGPT Voyager] Is custom website: true
+[ChatGPT Voyager] Custom website detected, starting Prompt Manager only
 ```
 
 ### Want to use other features on custom websites?
 
-Currently, only the Prompt Manager is supported on custom websites. Other features (Timeline, Folders, etc.) are specifically designed for Gemini and AI Studio and won't work on other sites.
+Currently, only the Prompt Manager is supported on custom websites. Other features (Timeline, Folders, etc.) are specifically designed for ChatGPT and AI Studio and won't work on other sites.
+

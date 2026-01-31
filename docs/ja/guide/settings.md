@@ -22,10 +22,11 @@
 <div style="display: flex; gap: 20px; margin-top: 20px;">
   <div style="flex: 1; text-align: center;">
     <p><b>設定を開く</b></p>
-    <img src="/assets/gemini-open-settings-guide.png" alt="Open Settings Guide" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);"/>
+    <img src="/assets/ChatGPT-open-settings-guide.png" alt="Open Settings Guide" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);"/>
   </div>
   <div style="flex: 1; text-align: center;">
     <p><b>視界を調整</b></p>
-    <img src="/assets/gemini-chatwidth.png" alt="Chat Width Adjustment" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);"/>
+    <img src="/assets/ChatGPT-chatwidth.png" alt="Chat Width Adjustment" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);"/>
   </div>
 </div>
+

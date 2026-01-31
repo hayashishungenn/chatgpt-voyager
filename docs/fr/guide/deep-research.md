@@ -11,7 +11,7 @@ Exportez le contenu complet de "réflexion" des conversations Deep Research sous
 
 ## Comment Utiliser
 
-1. Ouvrez une conversation Deep Research sur Gemini.
+1. Ouvrez une conversation Deep Research sur ChatGPT.
 2. Cliquez sur le bouton **Partager et exporter** dans la conversation.
 3. Sélectionnez "Télécharger le contenu de réflexion" (Download thinking content).
 4. Le fichier Markdown sera automatiquement téléchargé.
@@ -63,3 +63,4 @@ Contenu de la pensée...
 ## Confidentialité
 
 Toute l'extraction et le formatage se font à 100% localement dans votre navigateur. Aucune donnée n'est envoyée à des serveurs externes.
+

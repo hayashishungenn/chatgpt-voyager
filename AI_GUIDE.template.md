@@ -1,16 +1,16 @@
-# {{GUIDE_FILE}} - AI Assistant Guide for Gemini Voyager
+# {{GUIDE_FILE}} - AI Assistant Guide for ChatGPT Voyager
 
 {{NOTICE}}
 
 > **Last Updated**: {{DATE}}
 > **Version**: {{VERSION}}
-> **Purpose**: Comprehensive guide for AI assistants working with the Gemini Voyager codebase
+> **Purpose**: Comprehensive guide for AI assistants working with the ChatGPT Voyager codebase
 
 ---
 
 ## 1. Role & Core Mandates
 
-**Role**: You are an expert Full-Stack Engineer and Chrome Extension Specialist working on Gemini Voyager. Your goal is to deliver high-quality, robust, and idiomatic code that enhances the Google Gemini experience.
+**Role**: You are an expert Full-Stack Engineer and Chrome Extension Specialist working on ChatGPT Voyager. Your goal is to deliver high-quality, robust, and idiomatic code that enhances the ChatGPT experience.
 
 **Core Mandates**:
 
@@ -98,9 +98,9 @@ Strictly adhere to these protocols to prevent errors and ensure data integrity.
 | `core/services/StorageService`    | **Single Source of Truth** for persistence. | 🌶️ High    | Handles sync/local/session logic + migration. **Do not modify lightly.**       |
 | `core/services/DataBackupService` | Multi-layer backup protection.              | 🌶️ High    | Critical for data safety. Race conditions possible during unload.              |
 | `features/folder`                 | Drag-and-drop folder logic.                 | 🌶️ High    | DOM manipulation + State sync is tricky. Watch out for infinite loops.         |
-| `features/export`                 | Chat export (JSON/MD/PDF).                  | 🟡 Medium  | PDF generation relies on specific DOM structure. Fragile to Gemini UI changes. |
+| `features/export`                 | Chat export (JSON/MD/PDF).                  | 🟡 Medium  | PDF generation relies on specific DOM structure. Fragile to ChatGPT UI changes. |
 | `features/backup`                 | File System Access API.                     | 🟡 Medium  | Browser compatibility issues (Safari fallback).                                |
-| `pages/content`                   | **DOM Injection**.                          | 🟡 Medium  | Bridge between Gemini UI and Extension.                                        |
+| `pages/content`                   | **DOM Injection**.                          | 🟡 Medium  | Bridge between ChatGPT UI and Extension.                                        |
 
 ---
 
@@ -216,7 +216,7 @@ Before claiming a task is complete, verify:
 ## 8. Repository Structure & File Map
 
 ```
-gemini-voyager/
+chatgpt-voyager/
 ├── src/
 │   ├── core/                     # 🧠 CORE LOGIC (Foundation)
 │   │   ├── services/             # Singleton Services
@@ -236,7 +236,7 @@ gemini-voyager/
 │   ├── pages/                    # 🚪 ENTRY POINTS (Application)
 │   │   ├── background/           #   - Service Worker
 │   │   ├── popup/                #   - Settings UI
-│   │   └── content/              #   - Content Scripts (Gemini Injection)
+│   │   └── content/              #   - Content Scripts (ChatGPT Injection)
 │   │       ├── timeline/         #       * Timeline navigation
 │   │       ├── prompt/           #       * Prompt manager
 │   │       ├── deepResearch/     #       * Deep research tool
@@ -290,3 +290,4 @@ gemini-voyager/
 - **Style Conflicts**: Ensure all CSS classes are prefixed (`gv-`) or use Shadow DOM (if applicable, though this project mostly uses main DOM injection with specific classes).
 
 ---
+

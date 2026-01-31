@@ -2,7 +2,7 @@
 
 English | [简体中文](INSTALLATION_ZH.md)
 
-A simple guide for installing Gemini Voyager on Safari.
+A simple guide for installing ChatGPT Voyager on Safari.
 
 ## Requirements
 
@@ -16,12 +16,12 @@ A simple guide for installing Gemini Voyager on Safari.
 
 ### 1. Download
 
-Get the latest `gemini-voyager-safari-vX.Y.Z.zip` from [GitHub Releases](https://github.com/Nagi-ovo/gemini-voyager/releases).
+Get the latest `chatgpt-voyager-safari-vX.Y.Z.zip` from [GitHub Releases](https://github.com/hayashishungenn/chatgpt-voyager/releases).
 
 ### 2. Unzip
 
 ```bash
-unzip gemini-voyager-safari-vX.Y.Z.zip
+unzip chatgpt-voyager-safari-vX.Y.Z.zip
 ```
 
 You'll get a `dist_safari/` folder.
@@ -31,10 +31,10 @@ You'll get a `dist_safari/` folder.
 Safari requires converting the extension to an Xcode project:
 
 ```bash
-xcrun safari-web-extension-converter dist_safari --macos-only --app-name "Gemini Voyager"
+xcrun safari-web-extension-converter dist_safari --macos-only --app-name "ChatGPT Voyager"
 ```
 
-This creates a `Gemini Voyager/` folder with the Xcode project.
+This creates a `ChatGPT Voyager/` folder with the Xcode project.
 
 **💡 Tip:** If you see `xcrun: command not found`, install Xcode Command Line Tools first:
 
@@ -45,7 +45,7 @@ xcode-select --install
 ### 4. Open and Run in Xcode
 
 ```bash
-open "Gemini Voyager/Gemini Voyager.xcodeproj"
+open "ChatGPT Voyager/ChatGPT Voyager.xcodeproj"
 ```
 
 In Xcode:
@@ -63,8 +63,8 @@ After running:
 
 1. Open **Safari → Settings** (or Preferences)
 2. Go to **Extensions** tab
-3. Check **Gemini Voyager** to enable
-4. Visit [Gemini](https://gemini.google.com) to test
+3. Check **ChatGPT Voyager** to enable
+4. Visit [ChatGPT](https://ChatGPT.google.com) to test
 
 Done! 🎉
 
@@ -78,8 +78,8 @@ Done! 🎉
 
 ### Need to debug?
 
-- **View logs:** Safari → Develop → Web Extension Background Pages → Gemini Voyager
-- **Inspect pages:** Right-click on Gemini page → Inspect Element
+- **View logs:** Safari → Develop → Web Extension Background Pages → ChatGPT Voyager
+- **Inspect pages:** Right-click on ChatGPT page → Inspect Element
 
 ### Do I need an Apple Developer account?
 
@@ -98,10 +98,11 @@ Want to build from source or contribute? See the [Safari Development Guide](../.
 
 ## Uninstall
 
-1. Safari → Settings → Extensions → Uncheck Gemini Voyager
+1. Safari → Settings → Extensions → Uncheck ChatGPT Voyager
 2. Delete the app from Applications folder
-3. Clean up: `rm -rf "Gemini Voyager" dist_safari`
+3. Clean up: `rm -rf "ChatGPT Voyager" dist_safari`
 
 ---
 
-**Need help?** Open an issue on [GitHub](https://github.com/Nagi-ovo/gemini-voyager/issues)
+**Need help?** Open an issue on [GitHub](https://github.com/hayashishungenn/chatgpt-voyager/issues)
+

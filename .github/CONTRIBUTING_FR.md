@@ -3,7 +3,7 @@
 > [!IMPORTANT]
 > **Statut du projet : Maintenance réduite.** Attendez-vous à des délais de réponse. Les PR avec tests sont prioritaires.
 
-Merci d'envisager de contribuer à Gemini Voyager ! 🚀
+Merci d'envisager de contribuer à ChatGPT Voyager ! 🚀
 
 Ce document fournit des directives et des instructions pour contribuer. Nous accueillons toutes les contributions, qu'il s'agisse de corrections de bugs, de nouvelles fonctionnalités, d'améliorations de la documentation ou de traductions.
 
@@ -41,8 +41,8 @@ Bien que les outils d'IA soient d'excellents assistants, les contributions "pare
 
 ```bash
 # Cloner le dépôt
-git clone https://github.com/Nagi-ovo/gemini-voyager.git
-cd gemini-voyager
+git clone https://github.com/hayashishungenn/chatgpt-voyager.git
+cd chatgpt-voyager
 
 # Installer les dépendances
 bun install
@@ -226,7 +226,7 @@ Pour ajouter le support d'un nouveau Gem (Gems officiels Google ou Gems personna
 ### Trouver l'ID du Gem
 
 - Ouvrez une conversation avec le Gem
-- Vérifiez l'URL : `https://gemini.google.com/app/gem/[GEM_ID]/...`
+- Vérifiez l'URL : `https://ChatGPT.google.com/app/gem/[GEM_ID]/...`
 - Utilisez la partie `[GEM_ID]` dans votre configuration
 
 ### Choisir une Icône
@@ -245,7 +245,7 @@ Utilisez des noms d'icônes valides de [Google Material Symbols](https://fonts.g
 
 ## Portée du Projet
 
-Gemini Voyager améliore l'expérience de chat Gemini AI avec :
+ChatGPT Voyager améliore l'expérience de chat ChatGPT AI avec :
 
 - Navigation par chronologie
 - Organisation par dossiers
@@ -259,12 +259,13 @@ Gemini Voyager améliore l'expérience de chat Gemini AI avec :
 
 ## Obtenir de l'Aide
 
-- 💬 [GitHub Discussions](https://github.com/Nagi-ovo/gemini-voyager/discussions) - Poser des questions
-- 🐛 [Issues](https://github.com/Nagi-ovo/gemini-voyager/issues) - Signaler des bugs
-- 📖 [Documentation](https://gemini-voyager.vercel.app/) - Lire la documentation
+- 💬 [GitHub Discussions](https://github.com/hayashishungenn/chatgpt-voyager/discussions) - Poser des questions
+- 🐛 [Issues](https://github.com/hayashishungenn/chatgpt-voyager/issues) - Signaler des bugs
+- 📖 [Documentation](https://chatgpt-voyager.vercel.app/) - Lire la documentation
 
 ---
 
 ## Licence
 
 En contribuant, vous acceptez que vos contributions soient licenciées sous la [Licence MIT](../LICENSE).
+

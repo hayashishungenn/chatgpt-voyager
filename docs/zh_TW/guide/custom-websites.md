@@ -1,6 +1,6 @@
 # 提示詞管理器的自定義網站
 
-提示詞管理器現在可以在您選擇的任何網站上使用，不僅限於 Gemini 和 AI Studio。
+提示詞管理器現在可以在您選擇的任何網站上使用，不僅限於 ChatGPT 和 AI Studio。
 
 ## 工作原理
 
@@ -58,18 +58,19 @@
 
 1. **刷新頁面** - 擴充功能只在頁面載入時激活
 2. 檢查 URL 格式是否正確（例如：`chatgpt.com` 而不是 `chat.openai.com/chatgpt`）
-3. 打開瀏覽器控制台（F12）查看 `[Gemini Voyager]` 日誌
+3. 打開瀏覽器控制台（F12）查看 `[ChatGPT Voyager]` 日誌
 
 ### 如何檢查是否正常工作
 
 打開瀏覽器控制台（F12）查找：
 
 ```
-[Gemini Voyager] Checking custom websites: ...
-[Gemini Voyager] Is custom website: true
-[Gemini Voyager] Custom website detected, starting Prompt Manager only
+[ChatGPT Voyager] Checking custom websites: ...
+[ChatGPT Voyager] Is custom website: true
+[ChatGPT Voyager] Custom website detected, starting Prompt Manager only
 ```
 
 ### 想在自定義網站上使用其他功能？
 
-目前，自定義網站上僅支持提示詞管理器。其他功能（時間線、資料夾等）是專門為 Gemini 和 AI Studio 設計的，在其他網站上無法使用。
+目前，自定義網站上僅支持提示詞管理器。其他功能（時間線、資料夾等）是專門為 ChatGPT 和 AI Studio 設計的，在其他網站上無法使用。
+

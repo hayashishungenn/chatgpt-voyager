@@ -1,12 +1,12 @@
 # 歡迎登船
 
 恭喜。你的工作流剛剛升艙了。
-Gemini Voyager 不只是工具，它是種習慣。給我 5 分鐘，帶你上手。
+ChatGPT Voyager 不只是工具，它是種習慣。給我 5 分鐘，帶你上手。
 
 ## 1. 就位
 
 還沒裝？去 [安裝指南](/zh_TW/guide/installation)。
-裝好了？刷新 Gemini 頁面。變化立竿見影。
+裝好了？刷新 ChatGPT 頁面。變化立竿見影。
 
 ## 2. 穿梭
 
@@ -47,3 +47,4 @@ Gemini Voyager 不只是工具，它是種習慣。給我 5 分鐘，帶你上�
 - [精通資料夾](/zh_TW/guide/folders)
 - [管理提示詞](/zh_TW/guide/prompts)
 - [掌握數據](/zh_TW/guide/export)
+

@@ -1,15 +1,15 @@
 //
 //  SafariWebExtensionHandler.swift
-//  Gemini Voyager Safari Extension
+//  ChatGPT Voyager Safari Extension
 //
-//  Created for Gemini Voyager
-//  https://github.com/Nagi-ovo/gemini-voyager
+//  Created for ChatGPT Voyager
+//  https://github.com/hayashishungenn/chatgpt-voyager
 //
 
 import SafariServices
 import os.log
 
-let logger = OSLog(subsystem: "com.gemini-voyager.safari", category: "extension")
+let logger = OSLog(subsystem: "com.chatgpt-voyager.safari", category: "extension")
 
 class SafariWebExtensionHandler: NSObject, NSExtensionRequestHandling {
 
@@ -96,3 +96,4 @@ class SafariWebExtensionHandler: NSObject, NSExtensionRequestHandling {
         context.completeRequest(returningItems: [response])
     }
 }
+

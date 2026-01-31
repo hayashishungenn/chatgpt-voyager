@@ -2,7 +2,7 @@
 
 [English](README.md) | 简体中文
 
-为 Safari 构建和扩展 Gemini Voyager 的开发者指南。
+为 Safari 构建和扩展 ChatGPT Voyager 的开发者指南。
 
 ## 快速开始
 
@@ -22,10 +22,10 @@ bun run build:safari
 
 ```bash
 # 转换为 Safari 格式
-xcrun safari-web-extension-converter dist_safari --macos-only --app-name "Gemini Voyager"
+xcrun safari-web-extension-converter dist_safari --macos-only --app-name "ChatGPT Voyager"
 
 # 在 Xcode 中打开
-open "Gemini Voyager/Gemini Voyager.xcodeproj"
+open "ChatGPT Voyager/ChatGPT Voyager.xcodeproj"
 ```
 
 在 Xcode 中：
@@ -58,7 +58,7 @@ bun run build:safari
 
 ## 添加 Swift 原生代码（可选）
 
-[<img src="https://devin.ai/assets/askdeepwiki.png" alt="Ask DeepWiki" height="20"/>](https://deepwiki.com/Nagi-ovo/gemini-voyager)
+[<img src="https://devin.ai/assets/askdeepwiki.png" alt="Ask DeepWiki" height="20"/>](https://deepwiki.com/hayashishungenn/chatgpt-voyager)
 
 本项目包含用于原生 macOS 功能的 Swift 代码。添加它是**可选的**，但推荐使用。
 
@@ -75,11 +75,11 @@ safari/
 ### 如何添加
 
 1. 打开 Xcode 项目
-2. 右键点击 **"Gemini Voyager Extension"** 目标
-3. 选择 **Add Files to "Gemini Voyager Extension"...**
+2. 右键点击 **"ChatGPT Voyager Extension"** 目标
+3. 选择 **Add Files to "ChatGPT Voyager Extension"...**
 4. 导航到 `safari/App/` 和 `safari/Models/`
 5. 勾选 **"Copy items if needed"**
-6. 确保目标是 **"Gemini Voyager Extension"**
+6. 确保目标是 **"ChatGPT Voyager Extension"**
 
 ### 原生功能
 
@@ -93,7 +93,7 @@ safari/
 
 ### 原生消息 API
 
-[<img src="https://devin.ai/assets/askdeepwiki.png" alt="Ask DeepWiki" height="20"/>](https://deepwiki.com/Nagi-ovo/gemini-voyager)
+[<img src="https://devin.ai/assets/askdeepwiki.png" alt="Ask DeepWiki" height="20"/>](https://deepwiki.com/hayashishungenn/chatgpt-voyager)
 
 **从 JavaScript 调用：**
 
@@ -121,19 +121,19 @@ browser.runtime.sendNativeMessage({ action: 'getVersion' }, (response) => {
 
 **Web 控制台：**
 
-- Safari → 开发 → Web Extension Background Pages → Gemini Voyager
+- Safari → 开发 → Web Extension Background Pages → ChatGPT Voyager
 
 **原生日志：**
 
 ```bash
-log stream --predicate 'subsystem == "com.gemini-voyager.safari"' --level debug
+log stream --predicate 'subsystem == "com.chatgpt-voyager.safari"' --level debug
 ```
 
 ### 常见问题
 
 **"Module 'SafariServices' not found"**
 
-- 确保 Swift 文件添加到 "Gemini Voyager Extension" 目标，而不是主应用
+- 确保 Swift 文件添加到 "ChatGPT Voyager Extension" 目标，而不是主应用
 
 **原生消息不工作**
 
@@ -164,7 +164,7 @@ log stream --predicate 'subsystem == "com.gemini-voyager.safari"' --level debug
 
 ## 项目结构
 
-[<img src="https://devin.ai/assets/askdeepwiki.png" alt="Ask DeepWiki" height="20"/>](https://deepwiki.com/Nagi-ovo/gemini-voyager)
+[<img src="https://devin.ai/assets/askdeepwiki.png" alt="Ask DeepWiki" height="20"/>](https://deepwiki.com/hayashishungenn/chatgpt-voyager)
 
 ```
 ├── dist_safari/              # 构建的扩展（已忽略）
@@ -200,3 +200,4 @@ bun run build:all      # 为所有浏览器构建
 2. 在 `SafariWebExtensionHandler.swift` 中实现处理器
 3. 在 web 扩展中添加 JavaScript API
 4. 在本 README 中记录
+

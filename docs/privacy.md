@@ -4,13 +4,13 @@
 
 ## 简介
 
-Gemini Voyager（以下简称“我们”）致力于保护您的隐私。本隐私政策说明了我们的 Chrome 扩展程序如何收集、使用和保护您的信息。
+ChatGPT Voyager（以下简称“我们”）致力于保护您的隐私。本隐私政策说明了我们的 Chrome 扩展程序如何收集、使用和保护您的信息。
 
 ## 数据收集与使用
 
 **我们要强调的是：我们不收集任何个人信息。**
 
-Gemini Voyager 完全在您的浏览器本地运行。扩展程序生成或管理的所有数据（如文件夹、提示词模板和设置）均存储在：
+ChatGPT Voyager 完全在您的浏览器本地运行。扩展程序生成或管理的所有数据（如文件夹、提示词模板和设置）均存储在：
 
 1. 您的本地设备上（`chrome.storage.local`）
 2. 您的浏览器同步存储中（`chrome.storage.sync`，如果在设置中开启），以便在您的设备间同步设置。
@@ -22,11 +22,11 @@ Gemini Voyager 完全在您的浏览器本地运行。扩展程序生成或管�
 本扩展程序仅申请维持功能所需的最小权限：
 
 - **Storage (存储)**：用于保存您的偏好设置、文件夹结构和提示词。
-- **ActiveTab (当前标签页)**：用于在您使用扩展程序时与 Gemini 界面进行交互。
+- **ActiveTab (当前标签页)**：用于在您使用扩展程序时与 ChatGPT 界面进行交互。
 
 ## 第三方服务
 
-Gemini Voyager 不会与任何第三方服务、广告商或分析提供商共享数据。
+ChatGPT Voyager 不会与任何第三方服务、广告商或分析提供商共享数据。
 
 ## 政策变更
 
@@ -34,4 +34,5 @@ Gemini Voyager 不会与任何第三方服务、广告商或分析提供商共�
 
 ## 联系我们
 
-如果您对本隐私政策有任何疑问，请通过我们的 [GitHub 仓库](https://github.com/Nagi-ovo/gemini-voyager) 联系我们。
+如果您对本隐私政策有任何疑问，请通过我们的 [GitHub 仓库](https://github.com/hayashishungenn/chatgpt-voyager) 联系我们。
+

@@ -6,7 +6,7 @@
 ## Режим кинотеатра
 
 Зачем смотреть в будущее через крошечную замочную скважину?
-Gemini Voyager позволяет расширить ширину чата.
+ChatGPT Voyager позволяет расширить ширину чата.
 
 - **Широкий**: 1400px для кодирования и сложных таблиц.
 - **Сфокусированный**: 800px для чтения.
@@ -22,10 +22,11 @@ Gemini Voyager позволяет расширить ширину чата.
 <div style="display: flex; gap: 20px; margin-top: 20px;">
   <div style="flex: 1; text-align: center;">
     <p><b>Открыть настройки</b></p>
-    <img src="/assets/gemini-open-settings-guide.png" alt="Руководство по открытию настроек" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);"/>
+    <img src="/assets/ChatGPT-open-settings-guide.png" alt="Руководство по открытию настроек" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);"/>
   </div>
   <div style="flex: 1; text-align: center;">
     <p><b>Настройка ширины</b></p>
-    <img src="/assets/gemini-chatwidth.png" alt="Настройка ширины чата" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);"/>
+    <img src="/assets/ChatGPT-chatwidth.png" alt="Настройка ширины чата" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);"/>
   </div>
 </div>
+

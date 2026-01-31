@@ -1,12 +1,12 @@
 # Bienvenue à Bord
 
 Félicitations. Vous venez de mettre à niveau votre intellect.
-Gemini Voyager n'est pas juste un utilitaire ; c'est un flux de travail. Voici comment en tirer le meilleur parti en 5 minutes.
+ChatGPT Voyager n'est pas juste un utilitaire ; c'est un flux de travail. Voici comment en tirer le meilleur parti en 5 minutes.
 
 ## 1. La Configuration
 
 Si vous ne l'avez pas encore installé, rendez-vous sur le [Guide d'Installation](/fr/guide/installation).
-Une fois installé, rafraîchissez votre onglet Gemini. Vous verrez la différence immédiatement.
+Une fois installé, rafraîchissez votre onglet ChatGPT. Vous verrez la différence immédiatement.
 
 ## 2. La Chronologie
 
@@ -41,3 +41,4 @@ Explorez les guides spécifiques pour approfondir :
 - [Gestion des Dossiers](/fr/guide/folders)
 - [Ingénierie de Prompt](/fr/guide/prompts)
 - [Export de Données](/fr/guide/export)
+

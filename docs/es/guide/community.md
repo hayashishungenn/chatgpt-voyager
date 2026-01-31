@@ -33,7 +33,8 @@ Sigue nuestra cuenta de X (Twitter) para obtener los últimos avances en desarro
 
 Si encuentras un error (Bug) o tienes una solicitud de función clara (Feature Request), te recomendamos enviar un Issue en GitHub:
 
-- [Reportar un Bug](https://github.com/Nagi-ovo/gemini-voyager/issues/new?template=bug_report.yml)
-- [Solicitar una función](https://github.com/Nagi-ovo/gemini-voyager/issues/new?template=feature_request.yml)
+- [Reportar un Bug](https://github.com/hayashishungenn/chatgpt-voyager/issues/new?template=bug_report.yml)
+- [Solicitar una función](https://github.com/hayashishungenn/chatgpt-voyager/issues/new?template=feature_request.yml)
 
-¡Gracias por tu apoyo a Gemini Voyager! ❤️
+¡Gracias por tu apoyo a ChatGPT Voyager! ❤️
+

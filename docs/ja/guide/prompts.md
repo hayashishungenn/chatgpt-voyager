@@ -24,4 +24,5 @@
 ヴォルトを開き、タグで検索し、ワンクリックで挿入。
 一瞬で呼び出し、効率を倍増させましょう。
 
-![Prompt Manager](/assets/gemini-prompt-manager.png)
+![Prompt Manager](/assets/ChatGPT-prompt-manager.png)
+

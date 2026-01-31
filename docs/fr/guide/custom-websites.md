@@ -1,6 +1,6 @@
 # Sites Personnalisés pour le Gestionnaire de Prompts
 
-Le Gestionnaire de Prompts peut désormais être utilisé sur n'importe quel site web de votre choix, pas seulement Gemini et AI Studio.
+Le Gestionnaire de Prompts peut désormais être utilisé sur n'importe quel site web de votre choix, pas seulement ChatGPT et AI Studio.
 
 ## Comment Ça Marche
 
@@ -58,18 +58,19 @@ Sites de chat IA populaires où vous pourriez vouloir utiliser le Gestionnaire d
 
 1. **Rechargez la page** - L'extension ne s'active qu'au chargement de la page.
 2. Vérifiez que le format de l'URL est correct (ex : `chatgpt.com` pas `chat.openai.com/chatgpt`).
-3. Ouvrez la console du navigateur (F12) et cherchez les logs `[Gemini Voyager]`.
+3. Ouvrez la console du navigateur (F12) et cherchez les logs `[ChatGPT Voyager]`.
 
 ### Comment vérifier si ça marche
 
 Ouvrez la console du navigateur (F12) et cherchez :
 
 ```
-[Gemini Voyager] Checking custom websites: ...
-[Gemini Voyager] Is custom website: true
-[Gemini Voyager] Custom website detected, starting Prompt Manager only
+[ChatGPT Voyager] Checking custom websites: ...
+[ChatGPT Voyager] Is custom website: true
+[ChatGPT Voyager] Custom website detected, starting Prompt Manager only
 ```
 
 ### Vous voulez utiliser d'autres fonctionnalités sur des sites personnalisés ?
 
-Actuellement, seul le Gestionnaire de Prompts est supporté sur les sites personnalisés. Les autres fonctionnalités (Chronologie, Dossiers, etc.) sont spécifiquement conçues pour Gemini et AI Studio et ne fonctionneront pas sur d'autres sites.
+Actuellement, seul le Gestionnaire de Prompts est supporté sur les sites personnalisés. Les autres fonctionnalités (Chronologie, Dossiers, etc.) sont spécifiquement conçues pour ChatGPT et AI Studio et ne fonctionneront pas sur d'autres sites.
+

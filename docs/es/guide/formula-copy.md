@@ -1,10 +1,10 @@
 # Copia de Fórmulas
 
-Gemini Voyager facilita enormemente la reutilización de fórmulas matemáticas y símbolos científicos. Admite la copia en un clic del código fuente LaTeX y del formato MathML compatible con Microsoft Word.
+ChatGPT Voyager facilita enormemente la reutilización de fórmulas matemáticas y símbolos científicos. Admite la copia en un clic del código fuente LaTeX y del formato MathML compatible con Microsoft Word.
 
 ## Introducción
 
-Cuando le pides a Gemini que derive fórmulas o escriba expresiones matemáticas, normalmente las representa usando LaTeX. Aunque es visualmente atractivo, extraer el código fuente para usarlo en tus propios artículos, documentos o editores a menudo requiere un esfuerzo manual.
+Cuando le pides a ChatGPT que derive fórmulas o escriba expresiones matemáticas, normalmente las representa usando LaTeX. Aunque es visualmente atractivo, extraer el código fuente para usarlo en tus propios artículos, documentos o editores a menudo requiere un esfuerzo manual.
 
 Voyager proporciona un soporte fluido para esto:
 
@@ -14,7 +14,7 @@ Voyager proporciona un soporte fluido para esto:
    - **Copy LaTeX**: Copia el código fuente LaTeX estándar, ideal para Overleaf, editores de Markdown, etc.
    - **Copy MathML**: Copia el código fuente MathML, el mejor formato para pegar directamente en **Microsoft Word**.
 
-![Copia de Fórmulas](/assets/gemini-math-copy.png)
+![Copia de Fórmulas](/assets/ChatGPT-math-copy.png)
 
 ## Características
 
@@ -24,5 +24,6 @@ Voyager proporciona un soporte fluido para esto:
 
 ## Consejos de Uso
 
-- **Escritura Académica**: Al escribir artículos en Word, haz que Gemini derive fórmulas y luego usa copiar y pegar en MathML para evitar la molestia de la entrada manual en el Editor de ecuaciones de Word.
+- **Escritura Académica**: Al escribir artículos en Word, haz que ChatGPT derive fórmulas y luego usa copiar y pegar en MathML para evitar la molestia de la entrada manual en el Editor de ecuaciones de Word.
 - **Toma de Notas**: Al tomar notas en Obsidian o Notion, simplemente copia la fuente LaTeX directamente.
+

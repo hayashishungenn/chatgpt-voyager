@@ -5,7 +5,7 @@ Nuestro credo es simple: lo que creas, es tuyo.
 
 ## Llévatelo Todo
 
-Gemini Voyager te ayuda a bajar tus datos de la nube a tu palma.
+ChatGPT Voyager te ayuda a bajar tus datos de la nube a tu palma.
 
 ### Elige tu Formato
 
@@ -15,7 +15,7 @@ Gemini Voyager te ayuda a bajar tus datos de la nube a tu palma.
 
 ### Cómo Exportar
 
-1. Busca el **icono de exportación** junto al logo de Gemini.
+1. Busca el **icono de exportación** junto al logo de ChatGPT.
 2. Elige el formato.
 3. Llévatelo.
 
@@ -24,10 +24,11 @@ Tus datos, tus reglas.
 <div style="display: flex; gap: 20px; margin-top: 20px;">
   <div style="flex: 1; text-align: center;">
     <p><b>1. Encuentra el botón</b></p>
-    <img src="/assets/gemini-export-guide-1.png" alt="Guía de exportación paso 1" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);"/>
+    <img src="/assets/ChatGPT-export-guide-1.png" alt="Guía de exportación paso 1" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);"/>
   </div>
   <div style="flex: 1; text-align: center;">
     <p><b>2. Elige el formato</b></p>
-    <img src="/assets/gemini-export-guide-2.png" alt="Guía de exportación paso 2" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);"/>
+    <img src="/assets/ChatGPT-export-guide-2.png" alt="Guía de exportación paso 2" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);"/>
   </div>
 </div>
+

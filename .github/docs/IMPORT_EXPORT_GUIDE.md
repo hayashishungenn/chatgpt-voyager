@@ -8,9 +8,9 @@ The folder configuration import/export feature allows you to sync folder configu
 
 ### 📥 Export Folder Configuration (Download ⬇️)
 
-1. Open Gemini chat page
+1. Open ChatGPT chat page
 2. Find the **download icon button** (downward arrow ⬇️) in the folder area
-3. Click to download the configuration file (format: `gemini-voyager-folders-YYYYMMDD-HHMMSS.json`)
+3. Click to download the configuration file (format: `chatgpt-voyager-folders-YYYYMMDD-HHMMSS.json`)
 
 ### 📤 Import Folder Configuration (Upload ⬆️)
 
@@ -80,7 +80,7 @@ sessionStorage.removeItem('gvFolderBackupTimestamp');
 
 ```json
 {
-  "format": "gemini-voyager.folders.v1",
+  "format": "chatgpt-voyager.folders.v1",
   "exportedAt": "2025-01-15T10:30:00.000Z",
   "version": "0.7.2",
   "data": {
@@ -99,7 +99,7 @@ sessionStorage.removeItem('gvFolderBackupTimestamp');
         {
           "conversationId": "conv-yyy",
           "title": "Conversation Title",
-          "url": "https://gemini.google.com/app/...",
+          "url": "https://ChatGPT.google.com/app/...",
           "addedAt": 1736935800000
         }
       ]
@@ -147,7 +147,7 @@ A: Yes! Simply export from one browser and import to another.
 
 ## Technical Details
 
-- **Format Version**: `gemini-voyager.folders.v1`
+- **Format Version**: `chatgpt-voyager.folders.v1`
 - **Deduplication Strategy**: Deduplicate by `id` and `conversationId`
 - **File Encoding**: UTF-8
 - **Max File Size**: Theoretically unlimited (limited by browser memory)
@@ -156,4 +156,5 @@ A: Yes! Simply export from one browser and import to another.
 ## Feedback & Support
 
 For issues or suggestions, please visit:
-https://github.com/Nagi-ovo/gemini-voyager/issues/36
+https://github.com/hayashishungenn/chatgpt-voyager/issues/36
+

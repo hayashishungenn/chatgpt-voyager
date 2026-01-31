@@ -5,7 +5,7 @@
 
 Maintaining open-source projects is mainly driven by passion (and coffee) ☕
 
-**[Gemini Voyager](https://github.com/Nagi-ovo/gemini-voyager)** is a completely free and open-source browser extension designed to enhance your Gemini experience. If this extension helps you use Gemini more efficiently, please consider supporting the continued development and maintenance of this project.
+**[ChatGPT Voyager](https://github.com/hayashishungenn/chatgpt-voyager)** is a completely free and open-source browser extension designed to enhance your ChatGPT experience. If this extension helps you use ChatGPT more efficiently, please consider supporting the continued development and maintenance of this project.
 
 ---
 
@@ -30,7 +30,7 @@ Maintaining open-source projects is mainly driven by passion (and coffee) ☕
 
 ### 🎙️ Recommended Tool: Typeless
 
-I highly recommend **[Typeless (typeless.com)](https://www.typeless.com/refer?code=MZRYZP1)**, an AI voice-to-text tool that I used extensively during the development of Gemini Voyager. Integrating it into my daily workflow has saved me a tremendous amount of time and significantly boosted my productivity.
+I highly recommend **[Typeless (typeless.com)](https://www.typeless.com/refer?code=MZRYZP1)**, an AI voice-to-text tool that I used extensively during the development of ChatGPT Voyager. Integrating it into my daily workflow has saved me a tremendous amount of time and significantly boosted my productivity.
 
 > 🎁 **[Join via my referral link](https://www.typeless.com/refer?code=MZRYZP1)** (Code: **`MZRYZP1`**) to get **$5 free credits**. This also gives me credits to keep maintaining this project—a free way to support my work! ❤️
 
@@ -111,3 +111,4 @@ I highly recommend **[Typeless (typeless.com)](https://www.typeless.com/refer?co
 ---
 
 Thank you for your support! Every contribution is a great encouragement to me ❤️
+

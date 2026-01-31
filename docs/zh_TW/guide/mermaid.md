@@ -4,7 +4,7 @@
 
 ## 功能介紹
 
-當 Gemini 輸出 Mermaid 代碼塊時（如流程圖、時序圖、甘特圖等），Voyager 會自動檢測並渲染為交互式圖表。
+當 ChatGPT 輸出 Mermaid 代碼塊時（如流程圖、時序圖、甘特圖等），Voyager 會自動檢測並渲染為交互式圖表。
 
 ### 主要特性
 
@@ -15,7 +15,7 @@
 
 ## 使用方法
 
-1. 讓 Gemini 生成任意 Mermaid 圖表代碼
+1. 讓 ChatGPT 生成任意 Mermaid 圖表代碼
 2. 代碼塊會自動替換為渲染後的圖表
 3. 點擊 **</> Code** 按鈕查看原始代碼
 4. 點擊 **📊 Diagram** 按鈕切回圖表視圖
@@ -32,3 +32,4 @@
 <div align="center">
   <img src="/assets/mermaid-preview.png" alt="Mermaid 圖表渲染" style="max-width: 100%; border-radius: 8px;"/>
 </div>
+

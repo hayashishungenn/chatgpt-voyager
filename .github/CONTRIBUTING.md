@@ -1,13 +1,13 @@
-> **🌐 Language / 语言**: [English](#contributing-to-gemini-voyager) | [中文](#贡献指南) | [Español](CONTRIBUTING_ES.md) | [Français](CONTRIBUTING_FR.md) | [日本語](CONTRIBUTING_JA.md)
+> **🌐 Language / 语言**: [English](#contributing-to-chatgpt-voyager) | [中文](#贡献指南) | [Español](CONTRIBUTING_ES.md) | [Français](CONTRIBUTING_FR.md) | [日本語](CONTRIBUTING_JA.md)
 
 ---
 
-# Contributing to Gemini Voyager
+# Contributing to ChatGPT Voyager
 
 > [!IMPORTANT]
 > **Project Status: Low Maintenance.** Expect delays in response. PRs with tests are prioritized.
 
-Thank you for considering contributing to Gemini Voyager! 🚀
+Thank you for considering contributing to ChatGPT Voyager! 🚀
 
 This document provides guidelines and instructions for contributing. We welcome all contributions, whether it's bug fixes, new features, documentation improvements, or translations.
 
@@ -45,8 +45,8 @@ While AI tools are great assistants, "lazy" copy-paste contributions waste maint
 
 ```bash
 # Clone the repository
-git clone https://github.com/Nagi-ovo/gemini-voyager.git
-cd gemini-voyager
+git clone https://github.com/hayashishungenn/chatgpt-voyager.git
+cd chatgpt-voyager
 
 # Install dependencies
 bun install
@@ -231,7 +231,7 @@ To add support for a new Gem (official Google Gems or custom Gems):
 ### Finding the Gem ID
 
 - Open a conversation with the Gem
-- Check the URL: `https://gemini.google.com/app/gem/[GEM_ID]/...`
+- Check the URL: `https://ChatGPT.google.com/app/gem/[GEM_ID]/...`
 - Use the `[GEM_ID]` portion in your configuration
 
 ### Choosing an Icon
@@ -250,7 +250,7 @@ Use valid [Google Material Symbols](https://fonts.google.com/icons) icon names:
 
 ## Project Scope
 
-Gemini Voyager enhances the Gemini AI chat experience with:
+ChatGPT Voyager enhances the ChatGPT AI chat experience with:
 
 - Timeline navigation
 - Folder organization
@@ -264,9 +264,9 @@ Gemini Voyager enhances the Gemini AI chat experience with:
 
 ## Getting Help
 
-- 💬 [GitHub Discussions](https://github.com/Nagi-ovo/gemini-voyager/discussions) - Ask questions
-- 🐛 [Issues](https://github.com/Nagi-ovo/gemini-voyager/issues) - Report bugs
-- 📖 [Documentation](https://gemini-voyager.vercel.app/) - Read the docs
+- 💬 [GitHub Discussions](https://github.com/hayashishungenn/chatgpt-voyager/discussions) - Ask questions
+- 🐛 [Issues](https://github.com/hayashishungenn/chatgpt-voyager/issues) - Report bugs
+- 📖 [Documentation](https://chatgpt-voyager.vercel.app/) - Read the docs
 
 ---
 
@@ -281,7 +281,7 @@ By contributing, you agree that your contributions will be licensed under the [M
 > [!IMPORTANT]
 > **项目状态：低频维护。** 回复较慢。优先处理带测试的 PR。
 
-感谢你考虑为 Gemini Voyager 做出贡献！🚀
+感谢你考虑为 ChatGPT Voyager 做出贡献！🚀
 
 本文档提供贡献的指南和说明。我们欢迎所有形式的贡献，无论是错误修复、新功能、文档改进还是翻译。
 
@@ -319,8 +319,8 @@ By contributing, you agree that your contributions will be licensed under the [M
 
 ```bash
 # 克隆仓库
-git clone https://github.com/Nagi-ovo/gemini-voyager.git
-cd gemini-voyager
+git clone https://github.com/hayashishungenn/chatgpt-voyager.git
+cd chatgpt-voyager
 
 # 安装依赖
 bun install
@@ -493,7 +493,7 @@ bun run test       # 运行测试
 ### 查找 Gem ID
 
 - 打开与该 Gem 的对话
-- 检查 URL：`https://gemini.google.com/app/gem/[GEM_ID]/...`
+- 检查 URL：`https://ChatGPT.google.com/app/gem/[GEM_ID]/...`
 - 在配置中使用 `[GEM_ID]` 部分
 
 ### 选择图标
@@ -512,7 +512,7 @@ bun run test       # 运行测试
 
 ## 项目范围
 
-Gemini Voyager 通过以下功能增强 Gemini AI 聊天体验：
+ChatGPT Voyager 通过以下功能增强 ChatGPT AI 聊天体验：
 
 - 时间线导航
 - 文件夹组织
@@ -526,12 +526,13 @@ Gemini Voyager 通过以下功能增强 Gemini AI 聊天体验：
 
 ## 获取帮助
 
-- 💬 [GitHub Discussions](https://github.com/Nagi-ovo/gemini-voyager/discussions) - 提问
-- 🐛 [Issues](https://github.com/Nagi-ovo/gemini-voyager/issues) - 报告错误
-- 📖 [文档](https://gemini-voyager.vercel.app/) - 阅读文档
+- 💬 [GitHub Discussions](https://github.com/hayashishungenn/chatgpt-voyager/discussions) - 提问
+- 🐛 [Issues](https://github.com/hayashishungenn/chatgpt-voyager/issues) - 报告错误
+- 📖 [文档](https://chatgpt-voyager.vercel.app/) - 阅读文档
 
 ---
 
 ## 许可证
 
 提交贡献即表示你同意你的贡献将采用 [MIT 许可证](../LICENSE)。
+

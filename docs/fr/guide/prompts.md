@@ -24,4 +24,5 @@ La prochaine fois que vous en aurez besoin, ne le retapez pas.
 Ouvrez le gestionnaire, cherchez par tag ou mot-clé, et cliquez pour insérer.
 Un clic. Effet de levier infini.
 
-![Gestionnaire de Prompts](/assets/gemini-prompt-manager.png)
+![Gestionnaire de Prompts](/assets/ChatGPT-prompt-manager.png)
+

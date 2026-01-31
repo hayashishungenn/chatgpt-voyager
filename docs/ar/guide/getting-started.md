@@ -1,12 +1,12 @@
 # Welcome Aboard
 
 Congratulations. You’ve just upgraded your intellect.
-Gemini Voyager isn’t just a utility; it’s a workflow. Here is how to make the most of it in your first 5 minutes.
+ChatGPT Voyager isn’t just a utility; it’s a workflow. Here is how to make the most of it in your first 5 minutes.
 
 ## 1. The Setup
 
 If you haven't installed it yet, head over to the [Installation Guide](/guide/installation).
-Once installed, refresh your Gemini tab. You’ll see the difference immediately.
+Once installed, refresh your ChatGPT tab. You’ll see the difference immediately.
 
 ## 2. The Timeline
 
@@ -46,3 +46,4 @@ Explore the specific guides for deep dives:
 - [Folder Management](/guide/folders)
 - [Prompt Engineering](/guide/prompts)
 - [Data Export](/guide/export)
+

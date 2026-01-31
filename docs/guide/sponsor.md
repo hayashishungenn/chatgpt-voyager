@@ -5,7 +5,7 @@
 
 维护开源项目主要靠热情（和咖啡）驱动 ☕
 
-**[Gemini Voyager](https://github.com/Nagi-ovo/gemini-voyager)** 是一个完全免费且开源的浏览器扩展，旨在提升你的 Gemini 使用体验。如果这个扩展帮助你更高效地使用 Gemini，欢迎通过以下方式支持我继续开发和维护这个项目。
+**[ChatGPT Voyager](https://github.com/hayashishungenn/chatgpt-voyager)** 是一个完全免费且开源的浏览器扩展，旨在提升你的 ChatGPT 使用体验。如果这个扩展帮助你更高效地使用 ChatGPT，欢迎通过以下方式支持我继续开发和维护这个项目。
 
 ---
 
@@ -30,7 +30,7 @@
 
 ### 🎙️ 特别推荐: Typeless
 
-我非常推荐 **[Typeless (typeless.com)](https://www.typeless.com/refer?code=MZRYZP1)** 这款 AI 语音输入工具。在开发 Gemini Voyager 的过程中，我将其整合进了日常工作流，极大地节省了我的时间并显著提升了整体开发效率。
+我非常推荐 **[Typeless (typeless.com)](https://www.typeless.com/refer?code=MZRYZP1)** 这款 AI 语音输入工具。在开发 ChatGPT Voyager 的过程中，我将其整合进了日常工作流，极大地节省了我的时间并显著提升了整体开发效率。
 
 > 🎁 **[点击我的邀请链接注册](https://www.typeless.com/refer?code=MZRYZP1)**（邀请码 **`MZRYZP1`**）即可获得 **5 美元免费额度**，同时也能支持本项目的开发。❤️
 
@@ -111,3 +111,4 @@
 ---
 
 感谢你的支持！你的每一份贡献都是对我最大的鼓励 ❤️
+

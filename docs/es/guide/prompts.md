@@ -24,4 +24,5 @@ La próxima vez que lo necesites, no lo vuelvas a escribir.
 Abre la bóveda, busca la etiqueta, haz clic para insertar.
 Llamada con un clic, duplica la eficiencia.
 
-![Gestor de Prompts](/assets/gemini-prompt-manager.png)
+![Gestor de Prompts](/assets/ChatGPT-prompt-manager.png)
+

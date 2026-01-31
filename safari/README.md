@@ -2,7 +2,7 @@
 
 English | [简体中文](README_ZH.md)
 
-Developer guide for building and extending Gemini Voyager for Safari.
+Developer guide for building and extending ChatGPT Voyager for Safari.
 
 ## Quick Start
 
@@ -22,10 +22,10 @@ This creates a `dist_safari/` folder with the extension files.
 
 ```bash
 # Convert to Safari format
-xcrun safari-web-extension-converter dist_safari --macos-only --app-name "Gemini Voyager"
+xcrun safari-web-extension-converter dist_safari --macos-only --app-name "ChatGPT Voyager"
 
 # Open in Xcode
-open "Gemini Voyager/Gemini Voyager.xcodeproj"
+open "ChatGPT Voyager/ChatGPT Voyager.xcodeproj"
 ```
 
 In Xcode:
@@ -58,7 +58,7 @@ bun run build:safari
 
 ## Adding Swift Native Code (Optional)
 
-[<img src="https://devin.ai/assets/askdeepwiki.png" alt="Ask DeepWiki" height="20"/>](https://deepwiki.com/Nagi-ovo/gemini-voyager)
+[<img src="https://devin.ai/assets/askdeepwiki.png" alt="Ask DeepWiki" height="20"/>](https://deepwiki.com/hayashishungenn/chatgpt-voyager)
 
 This project includes Swift code for native macOS features. Adding it is **optional** but recommended.
 
@@ -75,11 +75,11 @@ safari/
 ### How to Add
 
 1. Open the Xcode project
-2. Right-click **"Gemini Voyager Extension"** target
-3. Select **Add Files to "Gemini Voyager Extension"...**
+2. Right-click **"ChatGPT Voyager Extension"** target
+3. Select **Add Files to "ChatGPT Voyager Extension"...**
 4. Navigate to `safari/App/` and `safari/Models/`
 5. Check **"Copy items if needed"**
-6. Ensure target is **"Gemini Voyager Extension"**
+6. Ensure target is **"ChatGPT Voyager Extension"**
 
 ### Native Features
 
@@ -93,7 +93,7 @@ Once added, you can:
 
 ### Native Messaging API
 
-[<img src="https://devin.ai/assets/askdeepwiki.png" alt="Ask DeepWiki" height="20"/>](https://deepwiki.com/Nagi-ovo/gemini-voyager)
+[<img src="https://devin.ai/assets/askdeepwiki.png" alt="Ask DeepWiki" height="20"/>](https://deepwiki.com/hayashishungenn/chatgpt-voyager)
 
 **From JavaScript:**
 
@@ -121,19 +121,19 @@ browser.runtime.sendNativeMessage({ action: 'getVersion' }, (response) => {
 
 **Web Console:**
 
-- Safari → Develop → Web Extension Background Pages → Gemini Voyager
+- Safari → Develop → Web Extension Background Pages → ChatGPT Voyager
 
 **Native Logs:**
 
 ```bash
-log stream --predicate 'subsystem == "com.gemini-voyager.safari"' --level debug
+log stream --predicate 'subsystem == "com.chatgpt-voyager.safari"' --level debug
 ```
 
 ### Common Issues
 
 **"Module 'SafariServices' not found"**
 
-- Ensure Swift files are added to "Gemini Voyager Extension" target, not the main app
+- Ensure Swift files are added to "ChatGPT Voyager Extension" target, not the main app
 
 **Native messaging not working**
 
@@ -164,7 +164,7 @@ See [Apple's official guide](https://developer.apple.com/documentation/safariser
 
 ## Project Structure
 
-[<img src="https://devin.ai/assets/askdeepwiki.png" alt="Ask DeepWiki" height="20"/>](https://deepwiki.com/Nagi-ovo/gemini-voyager)
+[<img src="https://devin.ai/assets/askdeepwiki.png" alt="Ask DeepWiki" height="20"/>](https://deepwiki.com/hayashishungenn/chatgpt-voyager)
 
 ```
 ├── dist_safari/              # Built extension (gitignored)
@@ -200,3 +200,4 @@ When adding native features:
 2. Implement handler in `SafariWebExtensionHandler.swift`
 3. Add JavaScript API in web extension
 4. Document in this README
+

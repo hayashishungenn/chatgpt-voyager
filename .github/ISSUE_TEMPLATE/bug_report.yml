@@ -51,7 +51,7 @@ body:
   - type: input
     attributes:
       label: '📦 扩展版本 | Extension Version'
-      description: 'Which version of Gemini Voyager are you using? (e.g., 1.1.3)'
+      description: 'Which version of ChatGPT Voyager are you using? (e.g., 1.1.3)'
       placeholder: '1.1.3'
     validations:
       required: true
@@ -91,3 +91,4 @@ body:
       options:
         - label: '我愿意为该问题贡献修复代码 / I am willing to contribute a fix for this bug'
         - label: '💡 其他贡献者可评论 `/claim` 认领此 Issue / Other contributors can comment `/claim` to claim'
+

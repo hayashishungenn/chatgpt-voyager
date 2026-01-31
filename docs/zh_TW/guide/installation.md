@@ -2,7 +2,7 @@
 
 選一條路。
 
-> ⚠️ 提示詞管理器是唯一支持 Gemini 企業版的功能。
+> ⚠️ 提示詞管理器是唯一支持 ChatGPT 企業版的功能。
 
 ## 1. 官方商店（推薦）
 
@@ -10,15 +10,15 @@
 
 **Chrome / Brave / Opera / Vivaldi：**
 
-[<img src="https://img.shields.io/badge/Chrome_應用店-前往下載-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white" alt="從 Chrome 線上應用店安裝" height="40"/>](https://chromewebstore.google.com/detail/kjdpnimcnfinmilocccippmododhceol)
+[<img src="https://img.shields.io/badge/Chrome_應用店-前往下載-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white" alt="從 Chrome 線上應用店安裝" height="40"/>](https://github.com/hayashishungenn/chatgpt-voyager/releases)
 
 **Microsoft Edge：**
 
-[<img src="https://img.shields.io/badge/Microsoft_Edge-前往下載-0078D7?style=for-the-badge&logo=microsoft-edge&logoColor=white" alt="從 Microsoft Edge Add-ons 安裝" height="40"/>](https://microsoftedge.microsoft.com/addons/detail/gemini-voyager/gibmkggjijalcjinbdhcpklodjkhhlne)
+[<img src="https://img.shields.io/badge/Microsoft_Edge-前往下載-0078D7?style=for-the-badge&logo=microsoft-edge&logoColor=white" alt="從 Microsoft Edge Add-ons 安裝" height="40"/>](https://github.com/hayashishungenn/chatgpt-voyager/releases)
 
 **Firefox：**
 
-[<img src="https://img.shields.io/badge/Firefox_Add--ons-前往下載-FF7139?style=for-the-badge&logo=firefox&logoColor=white" alt="從 Firefox Add-ons 安裝" height="40"/>](https://addons.mozilla.org/firefox/addon/gemini-voyager/)
+[<img src="https://img.shields.io/badge/Firefox_Add--ons-前往下載-FF7139?style=for-the-badge&logo=firefox&logoColor=white" alt="從 Firefox Add-ons 安裝" height="40"/>](https://github.com/hayashishungenn/chatgpt-voyager/releases)
 
 ## 2. 手動（搶鮮版）
 
@@ -26,7 +26,7 @@
 
 **Chrome / Edge / Brave / Opera：**
 
-1. 去 [GitHub Releases](https://github.com/Nagi-ovo/gemini-voyager/releases) 下最新的 `gemini-voyager-chrome-vX.Y.Z.zip`。
+1. 去 [GitHub Releases](https://github.com/hayashishungenn/chatgpt-voyager/releases) 下最新的 `chatgpt-voyager-chrome-vX.Y.Z.zip`。
 2. 解壓。
 3. 打開擴充功能頁 (`chrome://extensions`)。
 4. 開 **開發者模式** (右上角)。
@@ -34,7 +34,7 @@
 
 **Firefox：**
 
-1. 去 [Releases](https://github.com/Nagi-ovo/gemini-voyager/releases) 下最新的 `gemini-voyager-firefox-vX.Y.Z.xpi`。
+1. 去 [Releases](https://github.com/hayashishungenn/chatgpt-voyager/releases) 下最新的 `chatgpt-voyager-firefox-vX.Y.Z.xpi`。
 2. 打開擴充功能管理頁 (`about:addons`)。
 3. 把下載的 `.xpi` 文件拖進去安裝（或者點右上角齒輪 ⚙️ -> **從檔案安裝附加組件**）。
 
@@ -42,15 +42,17 @@
 
 ## 3. Safari (macOS)
 
-1. 去 [Releases](https://github.com/Nagi-ovo/gemini-voyager/releases) 下 `gemini-voyager-safari-vX.Y.Z.zip`。
+1. 去 [Releases](https://github.com/hayashishungenn/chatgpt-voyager/releases) 下 `chatgpt-voyager-safari-vX.Y.Z.zip`。
 2. 解壓。
 3. 終端跑這行命令 (得有 Xcode)：
    ```bash
-   xcrun safari-web-extension-converter dist_safari --macos-only --app-name "Gemini Voyager"
+   xcrun safari-web-extension-converter dist_safari --macos-only --app-name "ChatGPT Voyager"
    ```
 4. Xcode 裡運行。
 5. Safari 設置 > 擴充功能裡打開。
 
 ---
 
-_想貢獻代碼？開發者請移步 [貢獻指南](https://github.com/Nagi-ovo/gemini-voyager/blob/main/.github/CONTRIBUTING.md)。_
+_想貢獻代碼？開發者請移步 [貢獻指南](https://github.com/hayashishungenn/chatgpt-voyager/blob/main/.github/CONTRIBUTING.md)。_
+
+

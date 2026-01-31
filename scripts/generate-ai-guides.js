@@ -6,7 +6,7 @@ const scriptDir = dirname(fileURLToPath(import.meta.url));
 const rootDir = resolve(scriptDir, '..');
 const templatePath = resolve(rootDir, 'AI_GUIDE.template.md');
 const packageJsonPath = resolve(rootDir, 'package.json');
-const outputFiles = ['CLAUDE.md', 'AGENTS.md', 'GEMINI.md'];
+const outputFiles = ['CLAUDE.md', 'AGENTS.md', 'ChatGPT.md'];
 
 const main = async () => {
   const template = await readFile(templatePath, 'utf8');
@@ -49,3 +49,4 @@ try {
   console.error(error instanceof Error ? error.message : error);
   process.exitCode = 1;
 }
+

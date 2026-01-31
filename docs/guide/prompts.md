@@ -24,4 +24,5 @@
 打开库，搜标签，点一下插入。
 一键调用，效率翻倍。
 
-![提示词管理器](/assets/gemini-prompt-manager.png)
+![提示词管理器](/assets/ChatGPT-prompt-manager.png)
+

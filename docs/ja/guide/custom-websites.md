@@ -1,6 +1,6 @@
 # カスタムウェブサイトでのプロンプトマネージャー
 
-プロンプトマネージャーは、Gemini と AI Studio に限らず、あなたが選択したあらゆるウェブサイトで使用できるようになりました。
+プロンプトマネージャーは、ChatGPT と AI Studio に限らず、あなたが選択したあらゆるウェブサイトで使用できるようになりました。
 
 ## 仕組み
 
@@ -58,18 +58,19 @@
 
 1. **ページを再読み込み** してください - 拡張機能はページの読み込み時にのみ有効化されます。
 2. URL 形式が正しいか確認してください（例：`chat.openai.com/chatgpt` ではなく `chatgpt.com` と入力）。
-3. ブラウザのコンソール (F12) を開き、`[Gemini Voyager]` のログを確認してください。
+3. ブラウザのコンソール (F12) を開き、`[ChatGPT Voyager]` のログを確認してください。
 
 ### 正常に動作しているか確認する方法
 
 ブラウザのコンソール (F12) を開き、以下を探してください：
 
 ```
-[Gemini Voyager] Checking custom websites: ...
-[Gemini Voyager] Is custom website: true
-[Gemini Voyager] Custom website detected, starting Prompt Manager only
+[ChatGPT Voyager] Checking custom websites: ...
+[ChatGPT Voyager] Is custom website: true
+[ChatGPT Voyager] Custom website detected, starting Prompt Manager only
 ```
 
 ### カスタムウェブサイトで他の機能も使いたい？
 
-現在、カスタムウェブサイトではプロンプトマネージャーのみがサポートされています。その他の機能（タイムライン、フォルダなど）は Gemini と AI Studio 専用に設計されており、他のウェブサイトでは使用できません。
+現在、カスタムウェブサイトではプロンプトマネージャーのみがサポートされています。その他の機能（タイムライン、フォルダなど）は ChatGPT と AI Studio 専用に設計されており、他のウェブサイトでは使用できません。
+

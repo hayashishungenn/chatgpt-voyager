@@ -3,7 +3,7 @@
 > [!IMPORTANT]
 > **Estado del proyecto: Mantenimiento bajo.** Espere retrasos en las respuestas. Se priorizan los PR con pruebas.
 
-¡Gracias por considerar contribuir a Gemini Voyager! 🚀
+¡Gracias por considerar contribuir a ChatGPT Voyager! 🚀
 
 Este documento proporciona pautas e instrucciones para contribuir. Damos la bienvenida a todas las contribuciones, ya sea corrección de errores, nuevas funcionalidades, mejoras en la documentación o traducciones.
 
@@ -41,8 +41,8 @@ Aunque las herramientas de IA son grandes asistentes, las contribuciones de "cop
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/Nagi-ovo/gemini-voyager.git
-cd gemini-voyager
+git clone https://github.com/hayashishungenn/chatgpt-voyager.git
+cd chatgpt-voyager
 
 # Instalar dependencias
 bun install
@@ -226,7 +226,7 @@ Para agregar soporte para un nuevo Gem (Gems oficiales de Google o Gems personal
 ### Encontrar el ID del Gem
 
 - Abre una conversación con el Gem
-- Verifica la URL: `https://gemini.google.com/app/gem/[GEM_ID]/...`
+- Verifica la URL: `https://ChatGPT.google.com/app/gem/[GEM_ID]/...`
 - Usa la parte `[GEM_ID]` en tu configuración
 
 ### Elegir un Icono
@@ -245,7 +245,7 @@ Usa nombres de iconos válidos de [Google Material Symbols](https://fonts.google
 
 ## Alcance del Proyecto
 
-Gemini Voyager mejora la experiencia de chat de Gemini AI con:
+ChatGPT Voyager mejora la experiencia de chat de ChatGPT AI con:
 
 - Navegación por línea de tiempo
 - Organización de carpetas
@@ -259,12 +259,13 @@ Gemini Voyager mejora la experiencia de chat de Gemini AI con:
 
 ## Obtener Ayuda
 
-- 💬 [GitHub Discussions](https://github.com/Nagi-ovo/gemini-voyager/discussions) - Haz preguntas
-- 🐛 [Issues](https://github.com/Nagi-ovo/gemini-voyager/issues) - Reporta errores
-- 📖 [Documentación](https://gemini-voyager.vercel.app/) - Lee la documentación
+- 💬 [GitHub Discussions](https://github.com/hayashishungenn/chatgpt-voyager/discussions) - Haz preguntas
+- 🐛 [Issues](https://github.com/hayashishungenn/chatgpt-voyager/issues) - Reporta errores
+- 📖 [Documentación](https://chatgpt-voyager.vercel.app/) - Lee la documentación
 
 ---
 
 ## Licencia
 
 Al contribuir, aceptas que tus contribuciones se licenciarán bajo la [Licencia MIT](../LICENSE).
+

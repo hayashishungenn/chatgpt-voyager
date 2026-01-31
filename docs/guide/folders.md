@@ -20,8 +20,8 @@
 
 <div style="display: flex; gap: 20px; margin-top: 20px; flex-wrap: wrap;">
   <div style="flex: 1; min-width: 300px; text-align: center;">
-    <p><b>Gemini</b></p>
-    <img src="/assets/gemini-folders.png" alt="Gemini 文件夹" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);"/>
+    <p><b>ChatGPT</b></p>
+    <img src="/assets/ChatGPT-folders.png" alt="ChatGPT 文件夹" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);"/>
   </div>
   <div style="flex: 1; min-width: 300px; text-align: center;">
     <p><b>文件夹配色</b></p>
@@ -32,3 +32,4 @@
     <img src="/assets/aistudio-folders.png" alt="AI Studio 文件夹" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);"/>
   </div>
 </div>
+

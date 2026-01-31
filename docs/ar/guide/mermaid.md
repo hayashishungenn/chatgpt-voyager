@@ -4,7 +4,7 @@ Automatically render Mermaid code as visual diagrams.
 
 ## Overview
 
-When Gemini outputs Mermaid code blocks (flowcharts, sequence diagrams, Gantt charts, etc.), Voyager automatically detects and renders them as interactive diagrams.
+When ChatGPT outputs Mermaid code blocks (flowcharts, sequence diagrams, Gantt charts, etc.), Voyager automatically detects and renders them as interactive diagrams.
 
 ### Key Features
 
@@ -15,7 +15,7 @@ When Gemini outputs Mermaid code blocks (flowcharts, sequence diagrams, Gantt ch
 
 ## How to Use
 
-1. Ask Gemini to generate any Mermaid diagram code
+1. Ask ChatGPT to generate any Mermaid diagram code
 2. The code block is automatically replaced with the rendered diagram
 3. Click the **</> Code** button to view source code
 4. Click the **📊 Diagram** button to switch back to diagram view
@@ -32,3 +32,4 @@ When Gemini outputs Mermaid code blocks (flowcharts, sequence diagrams, Gantt ch
 <div align="center">
   <img src="/assets/mermaid-preview.png" alt="Mermaid diagram rendering" style="max-width: 100%; border-radius: 8px;"/>
 </div>
+

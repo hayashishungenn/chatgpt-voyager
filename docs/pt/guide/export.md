@@ -5,7 +5,7 @@ We believe that if you create it, you own it.
 
 ## Export Everything
 
-Gemini Voyager lets you pull your data out of the cloud and into your hands.
+ChatGPT Voyager lets you pull your data out of the cloud and into your hands.
 
 ### The Formats
 
@@ -15,7 +15,7 @@ Gemini Voyager lets you pull your data out of the cloud and into your hands.
 
 ### How to Export
 
-1. Look for the **Export Icon** next to the Gemini logo.
+1. Look for the **Export Icon** next to the ChatGPT logo.
 2. Choose your format.
 3. Done.
 
@@ -24,10 +24,11 @@ It’s your data. Do what you want with it.
 <div style="display: flex; gap: 20px; margin-top: 20px;">
   <div style="flex: 1; text-align: center;">
     <p><b>Step 1: The Button</b></p>
-    <img src="/assets/gemini-export-guide-1.png" alt="Export guide step 1" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);"/>
+    <img src="/assets/ChatGPT-export-guide-1.png" alt="Export guide step 1" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);"/>
   </div>
   <div style="flex: 1; text-align: center;">
     <p><b>Step 2: The Choice</b></p>
-    <img src="/assets/gemini-export-guide-2.png" alt="Export guide step 2" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);"/>
+    <img src="/assets/ChatGPT-export-guide-2.png" alt="Export guide step 2" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);"/>
   </div>
 </div>
+

@@ -3,7 +3,7 @@
 > [!IMPORTANT]
 > **プロジェクトの状態: 低頻度メンテナンス。** 返信が遅れる可能性があります。テスト付きのPRが優先されます。
 
-Gemini Voyager への貢献をご検討いただきありがとうございます！🚀
+ChatGPT Voyager への貢献をご検討いただきありがとうございます！🚀
 
 このドキュメントでは、貢献のためのガイドラインと手順を説明します。バグ修正、新機能、ドキュメントの改善、翻訳など、あらゆる貢献を歓迎します。
 
@@ -41,8 +41,8 @@ AI ツールは優れたアシスタントですが、「怠惰な」コピー�
 
 ```bash
 # リポジトリをクローン
-git clone https://github.com/Nagi-ovo/gemini-voyager.git
-cd gemini-voyager
+git clone https://github.com/hayashishungenn/chatgpt-voyager.git
+cd chatgpt-voyager
 
 # 依存関係をインストール
 bun install
@@ -226,7 +226,7 @@ import { parseData } from './parser';
 ### Gem ID の見つけ方
 
 - Gem との会話を開きます
-- URL を確認します: `https://gemini.google.com/app/gem/[GEM_ID]/...`
+- URL を確認します: `https://ChatGPT.google.com/app/gem/[GEM_ID]/...`
 - 設定で `[GEM_ID]` の部分を使用します
 
 ### アイコンの選択
@@ -245,7 +245,7 @@ import { parseData } from './parser';
 
 ## プロジェクトの範囲
 
-Gemini Voyager は、以下の機能で Gemini AI チャット体験を向上させます：
+ChatGPT Voyager は、以下の機能で ChatGPT AI チャット体験を向上させます：
 
 - タイムラインナビゲーション
 - フォルダ整理
@@ -259,12 +259,13 @@ Gemini Voyager は、以下の機能で Gemini AI チャット体験を向上さ
 
 ## ヘルプを得る
 
-- 💬 [GitHub Discussions](https://github.com/Nagi-ovo/gemini-voyager/discussions) - 質問する
-- 🐛 [Issues](https://github.com/Nagi-ovo/gemini-voyager/issues) - バグを報告する
-- 📖 [ドキュメント](https://gemini-voyager.vercel.app/) - ドキュメントを読む
+- 💬 [GitHub Discussions](https://github.com/hayashishungenn/chatgpt-voyager/discussions) - 質問する
+- 🐛 [Issues](https://github.com/hayashishungenn/chatgpt-voyager/issues) - バグを報告する
+- 📖 [ドキュメント](https://chatgpt-voyager.vercel.app/) - ドキュメントを読む
 
 ---
 
 ## ライセンス
 
 貢献することにより、あなたの貢献が [MIT ライセンス](../LICENSE) の下でライセンスされることに同意したものとみなされます。
+

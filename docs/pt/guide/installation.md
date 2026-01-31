@@ -2,7 +2,7 @@
 
 Escolha o seu caminho.
 
-> ⚠️ Nota: O Gestor de Prompts é a única funcionalidade que suporta Gemini para Enterprise.
+> ⚠️ Nota: O Gestor de Prompts é a única funcionalidade que suporta ChatGPT para Enterprise.
 
 ## 1. Lojas de Extensões (Recomendado)
 
@@ -10,15 +10,15 @@ A forma mais simples de começar. As atualizações são automáticas.
 
 **Chrome / Brave / Opera / Vivaldi:**
 
-[<img src="https://img.shields.io/badge/Chrome_Web_Store-Download-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Instalar da Chrome Web Store" height="40"/>](https://chromewebstore.google.com/detail/kjdpnimcnfinmilocccippmododhceol)
+[<img src="https://img.shields.io/badge/Chrome_Web_Store-Download-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Instalar da Chrome Web Store" height="40"/>](https://github.com/hayashishungenn/chatgpt-voyager/releases)
 
 **Microsoft Edge:**
 
-[<img src="https://img.shields.io/badge/Microsoft_Edge-Download-0078D7?style=for-the-badge&logo=microsoft-edge&logoColor=white" alt="Instalar do Microsoft Edge Add-ons" height="40"/>](https://microsoftedge.microsoft.com/addons/detail/gemini-voyager/gibmkggjijalcjinbdhcpklodjkhhlne)
+[<img src="https://img.shields.io/badge/Microsoft_Edge-Download-0078D7?style=for-the-badge&logo=microsoft-edge&logoColor=white" alt="Instalar do Microsoft Edge Add-ons" height="40"/>](https://github.com/hayashishungenn/chatgpt-voyager/releases)
 
 **Firefox:**
 
-[<img src="https://img.shields.io/badge/Firefox_Add--ons-Download-FF7139?style=for-the-badge&logo=firefox&logoColor=white" alt="Instalar do Firefox Add-ons" height="40"/>](https://addons.mozilla.org/firefox/addon/gemini-voyager/)
+[<img src="https://img.shields.io/badge/Firefox_Add--ons-Download-FF7139?style=for-the-badge&logo=firefox&logoColor=white" alt="Instalar do Firefox Add-ons" height="40"/>](https://github.com/hayashishungenn/chatgpt-voyager/releases)
 
 ## 2. A Via Manual (Funcionalidades Mais Recentes)
 
@@ -26,7 +26,7 @@ O processo de revisão da Web Store pode ser lento. Se quiser a versão de ponta
 
 **Para Chrome / Edge / Brave / Opera:**
 
-1. Descarregue o último `gemini-voyager-chrome-vX.Y.Z.zip` das [Releases do GitHub](https://github.com/Nagi-ovo/gemini-voyager/releases).
+1. Descarregue o último `chatgpt-voyager-chrome-vX.Y.Z.zip` das [Releases do GitHub](https://github.com/hayashishungenn/chatgpt-voyager/releases).
 2. Descompacte o ficheiro.
 3. Abra a página de Extensões do seu navegador (`chrome://extensions`).
 4. Ative o **Modo de programador** (canto superior direito).
@@ -34,7 +34,7 @@ O processo de revisão da Web Store pode ser lento. Se quiser a versão de ponta
 
 **Para Firefox:**
 
-1. Descarregue o último `gemini-voyager-firefox-vX.Y.Z.xpi` das [Releases](https://github.com/Nagi-ovo/gemini-voyager/releases).
+1. Descarregue o último `chatgpt-voyager-firefox-vX.Y.Z.xpi` das [Releases](https://github.com/hayashishungenn/chatgpt-voyager/releases).
 2. Abra o Gestor de Add-ons (`about:addons`).
 3. Arraste e largue o ficheiro `.xpi` para instalar (ou clique no ícone de engrenagem ⚙️ -> **Instalar Add-on de Ficheiro**).
 
@@ -42,15 +42,17 @@ O processo de revisão da Web Store pode ser lento. Se quiser a versão de ponta
 
 ## 3. Safari (macOS)
 
-1. Descarregue `gemini-voyager-safari-vX.Y.Z.zip` das [Releases](https://github.com/Nagi-ovo/gemini-voyager/releases).
+1. Descarregue `chatgpt-voyager-safari-vX.Y.Z.zip` das [Releases](https://github.com/hayashishungenn/chatgpt-voyager/releases).
 2. Descompacte o ficheiro.
 3. Execute o seguinte comando no Terminal para convertê-lo (requer Xcode):
    ```bash
-   xcrun safari-web-extension-converter dist_safari --macos-only --app-name "Gemini Voyager"
+   xcrun safari-web-extension-converter dist_safari --macos-only --app-name "ChatGPT Voyager"
    ```
 4. Execute a app no Xcode para instalar.
 5. Ative nas Definições do Safari > Extensões.
 
 ---
 
-_Configuração de desenvolvimento? Se é um programador à procura de contribuir, consulte o nosso [Guia de Contribuição](https://github.com/Nagi-ovo/gemini-voyager/blob/main/.github/CONTRIBUTING.md)._
+_Configuração de desenvolvimento? Se é um programador à procura de contribuir, consulte o nosso [Guia de Contribuição](https://github.com/hayashishungenn/chatgpt-voyager/blob/main/.github/CONTRIBUTING.md)._
+
+

@@ -33,7 +33,8 @@
 
 如果你發現了程式錯誤（Bug）或有明確的功能需求（Feature Request），建議在 GitHub 上提交 Issue：
 
-- [提交 Bug 報告](https://github.com/Nagi-ovo/gemini-voyager/issues/new?template=bug_report.yml)
-- [提交功能建議](https://github.com/Nagi-ovo/gemini-voyager/issues/new?template=feature_request.yml)
+- [提交 Bug 報告](https://github.com/hayashishungenn/chatgpt-voyager/issues/new?template=bug_report.yml)
+- [提交功能建議](https://github.com/hayashishungenn/chatgpt-voyager/issues/new?template=feature_request.yml)
 
-感謝你對 Gemini Voyager 的支持！❤️
+感謝你對 ChatGPT Voyager 的支持！❤️
+

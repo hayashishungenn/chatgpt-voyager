@@ -4,7 +4,7 @@ Mermaid コードを図表として自動レンダリングします。
 
 ## 機能紹介
 
-Gemini が Mermaid コードブロック（フローチャート、シーケンス図、ガントチャートなど）を出力すると、Voyager はそれを自動的に検出し、インタラクティブな図表として描画します。
+ChatGPT が Mermaid コードブロック（フローチャート、シーケンス図、ガントチャートなど）を出力すると、Voyager はそれを自動的に検出し、インタラクティブな図表として描画します。
 
 ### 主な特徴
 
@@ -15,7 +15,7 @@ Gemini が Mermaid コードブロック（フローチャート、シーケン�
 
 ## 使い方
 
-1. Gemini に Mermaid の図表コードを生成させます。
+1. ChatGPT に Mermaid の図表コードを生成させます。
 2. コードブロックが自動的にレンダリング後の図表に置き換わります。
 3. **</> Code** ボタンをクリックすると、元のコードを確認できます。
 4. **📊 Diagram** ボタンをクリックすると、図表ビューに戻ります。
@@ -32,3 +32,4 @@ Gemini が Mermaid コードブロック（フローチャート、シーケン�
 <div align="center">
   <img src="/assets/mermaid-preview.png" alt="Mermaid Diagram Rendering" style="max-width: 100%; border-radius: 8px;"/>
 </div>
+

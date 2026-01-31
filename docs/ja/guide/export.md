@@ -5,7 +5,7 @@
 
 ## すべてを持ち出す
 
-Gemini Voyager は、データをクラウドからあなたの手元へと引き戻す手助けをします。
+ChatGPT Voyager は、データをクラウドからあなたの手元へと引き戻す手助けをします。
 
 ### 選べるフォーマット
 
@@ -15,7 +15,7 @@ Gemini Voyager は、データをクラウドからあなたの手元へと引�
 
 ### エクスポート方法
 
-1. Gemini アイコンの横にある **エクスポートアイコン** を探します。
+1. ChatGPT アイコンの横にある **エクスポートアイコン** を探します。
 2. フォーマットを選びます。
 3. 持ち出します。
 
@@ -24,10 +24,11 @@ Gemini Voyager は、データをクラウドからあなたの手元へと引�
 <div style="display: flex; gap: 20px; margin-top: 20px;">
   <div style="flex: 1; text-align: center;">
     <p><b>1. ボタンを探す</b></p>
-    <img src="/assets/gemini-export-guide-1.png" alt="Export Guide Step 1" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);"/>
+    <img src="/assets/ChatGPT-export-guide-1.png" alt="Export Guide Step 1" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);"/>
   </div>
   <div style="flex: 1; text-align: center;">
     <p><b>2. フォーマットを選ぶ</b></p>
-    <img src="/assets/gemini-export-guide-2.png" alt="Export Guide Step 2" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);"/>
+    <img src="/assets/ChatGPT-export-guide-2.png" alt="Export Guide Step 2" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);"/>
   </div>
 </div>
+

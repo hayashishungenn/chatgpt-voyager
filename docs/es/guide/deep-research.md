@@ -10,7 +10,7 @@ Exporta el contenido completo de "pensamiento" de las conversaciones de Deep Res
 
 ## Cómo Usar
 
-1. Abre una conversación de Deep Research en Gemini.
+1. Abre una conversación de Deep Research en ChatGPT.
 2. Haz clic en el botón **Compartir y exportar** de la conversación.
 3. Selecciona "Descargar contenido de pensamiento" (Download thinking content).
 4. El archivo Markdown se descargará automáticamente.
@@ -62,3 +62,4 @@ Contenido del pensamiento...
 ## Privacidad
 
 Todas las operaciones de extracción y formateo se realizan 100% localmente en tu navegador. No se envían datos a servidores externos.
+

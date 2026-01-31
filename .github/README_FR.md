@@ -1,10 +1,10 @@
 <div align="center">
   <img src="../public/icon-128.png" alt="logo"/>
-  <h1>Gemini Voyager</h1>
-  <h3>Personnalisez votre expérience Gemini ✨</h3>
+  <h1>ChatGPT Voyager</h1>
+  <h3>Personnalisez votre expérience ChatGPT ✨</h3>
   <p>
     Navigation temporelle élégante, organisation des chats par dossiers, et coffre-fort de prompts personnel.<br>
-    <b>C'est l'extension indispensable pour Google Gemini.</b>
+    <b>C'est l'extension indispensable pour ChatGPT.</b>
   </p>
   
   <p>
@@ -16,19 +16,19 @@
     <img src="https://img.shields.io/badge/Brave-✓-FB542B?style=flat-square&logo=brave&logoColor=white" alt="Brave">
   </p>
   <p>
-    <img src="https://img.shields.io/github/stars/Nagi-ovo/gemini-voyager?style=flat-square&logo=github" alt="GitHub stars">
-    <img src="https://img.shields.io/github/forks/Nagi-ovo/gemini-voyager?style=flat-square&logo=github" alt="GitHub forks">
-    <img src="https://img.shields.io/github/v/release/Nagi-ovo/gemini-voyager?style=flat-square&logo=github" alt="Latest version">
-    <img src="https://img.shields.io/github/downloads/Nagi-ovo/gemini-voyager/total?style=flat-square&logo=github" alt="GitHub downloads">
+    <img src="https://img.shields.io/github/stars/hayashishungenn/chatgpt-voyager?style=flat-square&logo=github" alt="GitHub stars">
+    <img src="https://img.shields.io/github/forks/hayashishungenn/chatgpt-voyager?style=flat-square&logo=github" alt="GitHub forks">
+    <img src="https://img.shields.io/github/v/release/hayashishungenn/chatgpt-voyager?style=flat-square&logo=github" alt="Latest version">
+    <img src="https://img.shields.io/github/downloads/hayashishungenn/chatgpt-voyager/total?style=flat-square&logo=github" alt="GitHub downloads">
     <img src="https://img.shields.io/chrome-web-store/users/kjdpnimcnfinmilocccippmododhceol?style=flat-square&logo=google-chrome" alt="Chrome Web Store users">
     <img src="https://img.shields.io/chrome-web-store/rating/kjdpnimcnfinmilocccippmododhceol?style=flat-square&logo=google-chrome" alt="Chrome Web Store rating">
     <img src="https://img.shields.io/badge/Edge-✓-0078D7?style=flat-square&logo=microsoft-edge" alt="Edge Add-ons">
-    <img src="https://img.shields.io/amo/users/gemini-voyager?style=flat-square&logo=firefox" alt="Firefox Add-ons users">
-    <img src="https://img.shields.io/amo/rating/gemini-voyager?style=flat-square&logo=firefox" alt="Firefox Add-ons rating">
+    <img src="https://img.shields.io/amo/users/chatgpt-voyager?style=flat-square&logo=firefox" alt="Firefox Add-ons users">
+    <img src="https://img.shields.io/amo/rating/chatgpt-voyager?style=flat-square&logo=firefox" alt="Firefox Add-ons rating">
   </p>
   <p>
-    <a href="https://trendshift.io/repositories/16094" target="_blank"><img src="https://trendshift.io/api/badge/repositories/16094" alt="Nagi-ovo%2Fgemini-voyager | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
-    <a href="https://www.producthunt.com/products/gemini-voyager?embed=true&amp;utm_source=badge-featured&amp;utm_medium=badge&amp;utm_campaign=badge-gemini-voyager" target="_blank" rel="noopener noreferrer"><img alt="Gemini Voyager - All-in-one Gemini suite: folders, chat export and much more | Product Hunt" width="250" height="54" src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1064704&amp;theme=light&amp;t=1768842096186"></a>
+    <a href="https://trendshift.io/repositories/16094" target="_blank"><img src="https://trendshift.io/api/badge/repositories/16094" alt="Nagi-ovo%2Fchatgpt-voyager | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+    <a href="https://www.producthunt.com/products/chatgpt-voyager?embed=true&amp;utm_source=badge-featured&amp;utm_medium=badge&amp;utm_campaign=badge-chatgpt-voyager" target="_blank" rel="noopener noreferrer"><img alt="ChatGPT Voyager - All-in-one ChatGPT suite: folders, chat export and much more | Product Hunt" width="250" height="54" src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1064704&amp;theme=light&amp;t=1768842096186"></a>
   </p>
   <p align="center">
     ✨ Nous sommes en direct sur Product Hunt ! Vos retours sont les bienvenus. ❤️
@@ -36,7 +36,7 @@
 </div>
 
 <p align="center">
-  <a href="https://voyager.nagi.fun/fr">📖 Documentation</a> • 
+  <a href="https://github.com/hayashishungenn/chatgpt-voyager/fr">📖 Documentation</a> • 
   <a href="../README.md">English</a> • 
   <a href="./README_ZH.md">简体中文</a> •
   <a href="./README_ZH_TW.md">繁體中文</a> •
@@ -48,7 +48,7 @@
 </p>
 
 <p align="center">
-    <img src="https://count.getloli.com/@gemini-voyager?name=gemini-voyager&theme=rule34&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=auto" width="400">
+    <img src="https://count.getloli.com/@chatgpt-voyager?name=chatgpt-voyager&theme=rule34&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=auto" width="400">
   </p>
 
 > [!CAUTION]
@@ -56,11 +56,11 @@
 
 ---
 
-## 👋 Pourquoi Gemini Voyager ?
+## 👋 Pourquoi ChatGPT Voyager ?
 
-Nous adorons Gemini, mais nous aimerions parfois qu'il soit un peu plus "ordonné".
+Nous adorons ChatGPT, mais nous aimerions parfois qu'il soit un peu plus "ordonné".
 
-C'est pourquoi nous avons créé **Gemini Voyager**. Plus qu'un simple outil, c'est un compagnon qui vous aide à garder vos conversations IA organisées, accessibles et productives. Que vous soyez un chercheur gérant des dizaines de fils, un développeur sauvegardant des extraits de code, ou simplement quelqu'un qui aime l'ordre, Voyager est fait pour vous.
+C'est pourquoi nous avons créé **ChatGPT Voyager**. Plus qu'un simple outil, c'est un compagnon qui vous aide à garder vos conversations IA organisées, accessibles et productives. Que vous soyez un chercheur gérant des dizaines de fils, un développeur sauvegardant des extraits de code, ou simplement quelqu'un qui aime l'ordre, Voyager est fait pour vous.
 
 ---
 
@@ -70,38 +70,38 @@ C'est pourquoi nous avons créé **Gemini Voyager**. Plus qu'un simple outil, c'
   <img src="../docs/public/assets/teaser.png" alt="teaser"/>
 </div>
 
-Pour un guide complet, visitez notre [Documentation](https://voyager.nagi.fun/fr).
+Pour un guide complet, visitez notre [Documentation](https://github.com/hayashishungenn/chatgpt-voyager/fr).
 
-- **📍 [Navigation Temporelle](https://voyager.nagi.fun/fr/guide/timeline)** : Des nœuds visuels pour naviguer entre les messages, marquer les moments clés et gérer les branches de conversation.
-- **📂 [Dossiers](https://voyager.nagi.fun/fr/guide/folders)** : Organisez vos chats dans une hiérarchie à deux niveaux avec support du glisser-déposer.
-- **💡 [Coffre-fort de Prompts](https://voyager.nagi.fun/fr/guide/prompts)** : Enregistrez et réutilisez vos meilleurs prompts sur Gemini, AI Studio et [sites personnalisés](https://voyager.nagi.fun/fr/guide/custom-websites).
-- **💾 [Export de Chat](https://voyager.nagi.fun/fr/guide/export)** : Exportez vos conversations en JSON, Markdown ou PDF avec les images incluses.
-- **🍌 [NanoBanana](https://voyager.nagi.fun/fr/guide/nanobanana)** : Suppression sans perte du filigrane Gemini sur les images générées.
-- **🧜‍♀️ [Rendu Mermaid](https://voyager.nagi.fun/fr/guide/mermaid)** : Rendu automatique des diagrammes Mermaid (flux, séquences, etc.).
-- **🔬 [Deep Research](https://voyager.nagi.fun/fr/guide/deep-research)** : Extrayez les processus de réflexion et les liens de recherche des sessions Deep Research.
+- **📍 [Navigation Temporelle](https://github.com/hayashishungenn/chatgpt-voyager/fr/guide/timeline)** : Des nœuds visuels pour naviguer entre les messages, marquer les moments clés et gérer les branches de conversation.
+- **📂 [Dossiers](https://github.com/hayashishungenn/chatgpt-voyager/fr/guide/folders)** : Organisez vos chats dans une hiérarchie à deux niveaux avec support du glisser-déposer.
+- **💡 [Coffre-fort de Prompts](https://github.com/hayashishungenn/chatgpt-voyager/fr/guide/prompts)** : Enregistrez et réutilisez vos meilleurs prompts sur ChatGPT, AI Studio et [sites personnalisés](https://github.com/hayashishungenn/chatgpt-voyager/fr/guide/custom-websites).
+- **💾 [Export de Chat](https://github.com/hayashishungenn/chatgpt-voyager/fr/guide/export)** : Exportez vos conversations en JSON, Markdown ou PDF avec les images incluses.
+- **🍌 [NanoBanana](https://github.com/hayashishungenn/chatgpt-voyager/fr/guide/nanobanana)** : Suppression sans perte du filigrane ChatGPT sur les images générées.
+- **🧜‍♀️ [Rendu Mermaid](https://github.com/hayashishungenn/chatgpt-voyager/fr/guide/mermaid)** : Rendu automatique des diagrammes Mermaid (flux, séquences, etc.).
+- **🔬 [Deep Research](https://github.com/hayashishungenn/chatgpt-voyager/fr/guide/deep-research)** : Extrayez les processus de réflexion et les liens de recherche des sessions Deep Research.
 - **📐 Copie de Formules**: Copie en un clic des codes sources LaTeX et MathML (Word).
 - **🛠️ Outils de Productivité** :
-  - **[Suppression par Lot](https://voyager.nagi.fun/fr/guide/batch-delete)** : Nettoyage massif de votre historique.
-  - **[Réponse avec Citation](https://voyager.nagi.fun/fr/guide/quote-reply)** : Répondez avec contexte en sélectionnant simplement du texte.
-  - **[Synchro Titre Onglet](https://voyager.nagi.fun/fr/guide/tab-title)** : Synchronisation automatique du titre de l'onglet avec le titre du chat.
-  - **[Réduction Entrée](https://voyager.nagi.fun/fr/guide/input-collapse)** : Zone de saisie auto-réductible pour plus d'espace de lecture.
+  - **[Suppression par Lot](https://github.com/hayashishungenn/chatgpt-voyager/fr/guide/batch-delete)** : Nettoyage massif de votre historique.
+  - **[Réponse avec Citation](https://github.com/hayashishungenn/chatgpt-voyager/fr/guide/quote-reply)** : Répondez avec contexte en sélectionnant simplement du texte.
+  - **[Synchro Titre Onglet](https://github.com/hayashishungenn/chatgpt-voyager/fr/guide/tab-title)** : Synchronisation automatique du titre de l'onglet avec le titre du chat.
+  - **[Réduction Entrée](https://github.com/hayashishungenn/chatgpt-voyager/fr/guide/input-collapse)** : Zone de saisie auto-réductible pour plus d'espace de lecture.
 
 ---
 
 ## 📥 Installation
 
-> ⚠️ Note : Le Gestionnaire de Prompts est la seule fonctionnalité supportant Gemini for Enterprise.
+> ⚠️ Note : Le Gestionnaire de Prompts est la seule fonctionnalité supportant ChatGPT for Enterprise.
 
 <div align="center">
-  <a href="https://chromewebstore.google.com/detail/kjdpnimcnfinmilocccippmododhceol" target="_blank">
+  <a href="https://github.com/hayashishungenn/chatgpt-voyager/releases" target="_blank">
     <img src="https://img.shields.io/badge/Chrome%20Web%20Store-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Chrome Web Store" height="36">
   </a>
   &nbsp;&nbsp;
-  <a href="https://microsoftedge.microsoft.com/addons/detail/gemini-voyager/gibmkggjijalcjinbdhcpklodjkhhlne" target="_blank">
+  <a href="https://github.com/hayashishungenn/chatgpt-voyager/releases" target="_blank">
     <img src="https://img.shields.io/badge/Microsoft%20Edge-0078D7?style=for-the-badge&logo=microsoftedge&logoColor=white" alt="Microsoft Edge Add-ons" height="36">
   </a>
   &nbsp;&nbsp;
-  <a href="https://addons.mozilla.org/firefox/addon/gemini-voyager/" target="_blank">
+  <a href="https://github.com/hayashishungenn/chatgpt-voyager/releases" target="_blank">
     <img src="https://img.shields.io/badge/Firefox%20Add--ons-FF7139?style=for-the-badge&logo=firefox&logoColor=white" alt="Firefox Add-ons" height="36">
   </a>
 </div>
@@ -112,19 +112,19 @@ Pour un guide complet, visitez notre [Documentation](https://voyager.nagi.fun/fr
 
 > **Statut des Stores :** Chrome ✅ · Firefox ✅ · Edge ✅ · Safari (Prochainement)
 
-Pour une **installation manuelle** ou des **builds de développement**, veuillez vous référer au [Guide d'Installation](https://voyager.nagi.fun/fr/guide/installation).
+Pour une **installation manuelle** ou des **builds de développement**, veuillez vous référer au [Guide d'Installation](https://github.com/hayashishungenn/chatgpt-voyager/fr/guide/installation).
 
 ---
 
 ## ☕ Soutenir le Projet
 
 <div align="center">
-  <a href="https://github.com/Nagi-ovo/gemini-voyager">
-    <img src="https://raw.githubusercontent.com/Nagi-ovo/gemini-voyager/main/docs/public/assets/sponsors.svg" width="1000px" />
+  <a href="https://github.com/hayashishungenn/chatgpt-voyager">
+    <img src="https://raw.githubusercontent.com/hayashishungenn/chatgpt-voyager/main/docs/public/assets/sponsors.svg" width="1000px" />
   </a>
 </div>
 
-Si Gemini Voyager facilite votre vie, considérez m'offrir un café. Cela aide à maintenir les mises à jour ! Les donateurs seront cités dans notre section remerciements. ❤️
+Si ChatGPT Voyager facilite votre vie, considérez m'offrir un café. Cela aide à maintenir les mises à jour ! Les donateurs seront cités dans notre section remerciements. ❤️
 
 <div align="center">
   <a href="https://www.buymeacoffee.com/Nag1ovo" target="_blank">
@@ -169,33 +169,35 @@ Je recommande vivement **[Typeless (typeless.com)](https://www.typeless.com/refe
 
 ## 🤝 Contribution & Développement
 
-[<img src="https://devin.ai/assets/askdeepwiki.png" alt="Ask DeepWiki" height="20"/>](https://deepwiki.com/Nagi-ovo/gemini-voyager)
+[<img src="https://devin.ai/assets/askdeepwiki.png" alt="Ask DeepWiki" height="20"/>](https://deepwiki.com/hayashishungenn/chatgpt-voyager)
 
 Toute contribution est la bienvenue !
 
-- **Issues** : Utilisez nos templates de [bug report](https://github.com/Nagi-ovo/gemini-voyager/blob/main/.github/ISSUE_TEMPLATE/bug_report.md) ou [feature request](https://github.com/Nagi-ovo/gemini-voyager/blob/main/.github/ISSUE_TEMPLATE/feature_request.yml).
+- **Issues** : Utilisez nos templates de [bug report](https://github.com/hayashishungenn/chatgpt-voyager/blob/main/.github/ISSUE_TEMPLATE/bug_report.md) ou [feature request](https://github.com/hayashishungenn/chatgpt-voyager/blob/main/.github/ISSUE_TEMPLATE/feature_request.yml).
 - **Pull Requests** : Consultez [CONTRIBUTING.md](./CONTRIBUTING.md).
 
-Merci d'aider à rendre Gemini Voyager meilleur ! ❤️
+Merci d'aider à rendre ChatGPT Voyager meilleur ! ❤️
 
 ---
 
 ## 🌟 Crédits
 
-- **[DeepSeek Voyager](https://github.com/Azurboy/deepseek-voyager)** - Un fork de Gemini Voyager adapté pour DeepSeek.
+- **[DeepSeek Voyager](https://github.com/Azurboy/deepseek-voyager)** - Un fork de ChatGPT Voyager adapté pour DeepSeek.
 
 - **[ChatGPT Conversation Timeline](https://github.com/Reborn14/chatgpt-conversation-timeline)** - La source d'inspiration originale pour la navigation temporelle.
 
 ---
 
 <div align="center">
-  <a href="https://www.star-history.com/#Nagi-ovo/gemini-voyager&type=date&legend=top-left">
+  <a href="https://www.star-history.com/#hayashishungenn/chatgpt-voyager&type=date&legend=top-left">
    <picture>
-     <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Nagi-ovo/gemini-voyager&type=date&theme=dark&legend=top-left" />
-     <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=Nagi-ovo/gemini-voyager&type=date&legend=top-left" />
-     <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Nagi-ovo/gemini-voyager&type=date&legend=top-left" />
+     <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=hayashishungenn/chatgpt-voyager&type=date&theme=dark&legend=top-left" />
+     <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=hayashishungenn/chatgpt-voyager&type=date&legend=top-left" />
+     <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=hayashishungenn/chatgpt-voyager&type=date&legend=top-left" />
    </picture>
   </a>
   <p>Fait avec ❤️ par Jesse Zhang</p>
   <sub>MIT License © 2025</sub>
 </div>
+
+

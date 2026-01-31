@@ -2,12 +2,12 @@
 layout: home
 
 hero:
-  name: 'Gemini Voyager'
+  name: 'ChatGPT Voyager'
   text: 'ついに、完成。'
   tagline: '思考を形に、すべてをあるべき場所へ。'
   image:
     src: /logo.png
-    alt: Gemini Voyager Logo
+    alt: ChatGPT Voyager Logo
   actions:
     - theme: brand
       text: ダウンロード
@@ -18,7 +18,7 @@ hero:
 
 teaser:
   title: 'インタラクションを再定義する。'
-  description: '私たちは拡張機能を作るのではありません。思考そのものを再構築するのです。<br>Gemini Voyager があれば、人がインターフェースに合わせる必要はありません。インターフェースが、あなたの思考の流れに寄り添うのです。'
+  description: '私たちは拡張機能を作るのではありません。思考そのものを再構築するのです。<br>ChatGPT Voyager があれば、人がインターフェースに合わせる必要はありません。インターフェースが、あなたの思考の流れに寄り添うのです。'
   image: '/assets/teaser.png'
   features:
     - title: 'タイムライン'
@@ -64,30 +64,30 @@ features:
   <h3 style="margin: 0 0 8px; font-weight: 600; font-size: 1.05em;">すべてのダウンロードは、信頼の証</h3>
   <p style="margin: 0 0 16px; opacity: 0.78; font-size: 0.95em;">Chrome ウェブストアと GitHub からのリアルタイムデータ。共に歩んでくれるすべての Voyager に敬意を表します。</p>
   <div style="display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;">
-    <img src="https://img.shields.io/github/stars/Nagi-ovo/gemini-voyager?style=flat-square&logo=github" alt="GitHub Star">
-    <img src="https://img.shields.io/github/forks/Nagi-ovo/gemini-voyager?style=flat-square&logo=github" alt="GitHub Fork">
-    <img src="https://img.shields.io/github/v/release/Nagi-ovo/gemini-voyager?style=flat-square&logo=github" alt="最新バージョン">
-    <img src="https://img.shields.io/github/downloads/Nagi-ovo/gemini-voyager/total?style=flat-square&logo=github" alt="GitHub ダウンロード数">
+    <img src="https://img.shields.io/github/stars/hayashishungenn/chatgpt-voyager?style=flat-square&logo=github" alt="GitHub Star">
+    <img src="https://img.shields.io/github/forks/hayashishungenn/chatgpt-voyager?style=flat-square&logo=github" alt="GitHub Fork">
+    <img src="https://img.shields.io/github/v/release/hayashishungenn/chatgpt-voyager?style=flat-square&logo=github" alt="最新バージョン">
+    <img src="https://img.shields.io/github/downloads/hayashishungenn/chatgpt-voyager/total?style=flat-square&logo=github" alt="GitHub ダウンロード数">
     <img src="https://img.shields.io/chrome-web-store/users/kjdpnimcnfinmilocccippmododhceol?style=flat-square&logo=google-chrome" alt="Chrome ストア ユーザー数">
     <img src="https://img.shields.io/chrome-web-store/rating/kjdpnimcnfinmilocccippmododhceol?style=flat-square&logo=google-chrome" alt="Chrome ストア 評価">
     <img src="https://img.shields.io/badge/Edge-✓-0078D7?style=flat-square&logo=microsoft-edge" alt="Edge ストア">
-    <img src="https://img.shields.io/amo/users/gemini-voyager?style=flat-square&logo=firefox" alt="Firefox ストア ユーザー数">
-    <img src="https://img.shields.io/amo/rating/gemini-voyager?style=flat-square&logo=firefox" alt="Firefox ストア 評価">
+    <img src="https://img.shields.io/amo/users/chatgpt-voyager?style=flat-square&logo=firefox" alt="Firefox ストア ユーザー数">
+    <img src="https://img.shields.io/amo/rating/chatgpt-voyager?style=flat-square&logo=firefox" alt="Firefox ストア 評価">
   </div>
   <div style="margin-top: 16px; display: flex; justify-content: center; flex-wrap: wrap; gap: 12px;">
-    <a href="https://trendshift.io/repositories/16094" target="_blank"><img src="https://trendshift.io/api/badge/repositories/16094" alt="Nagi-ovo%2Fgemini-voyager | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
-    <!-- <a href="https://www.producthunt.com/products/gemini-voyager?embed=true&amp;utm_source=badge-featured&amp;utm_medium=badge&amp;utm_campaign=badge-gemini-voyager" target="_blank" rel="noopener noreferrer"><img alt="Gemini Voyager - All-in-one Gemini suite: folders, chat export and much more | Product Hunt" width="250" height="54" src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1064704&amp;theme=light&amp;t=1768842096186"></a> -->
+    <a href="https://trendshift.io/repositories/16094" target="_blank"><img src="https://trendshift.io/api/badge/repositories/16094" alt="Nagi-ovo%2Fchatgpt-voyager | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+    <!-- <a href="https://www.producthunt.com/products/chatgpt-voyager?embed=true&amp;utm_source=badge-featured&amp;utm_medium=badge&amp;utm_campaign=badge-chatgpt-voyager" target="_blank" rel="noopener noreferrer"><img alt="ChatGPT Voyager - All-in-one ChatGPT suite: folders, chat export and much more | Product Hunt" width="250" height="54" src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1064704&amp;theme=light&amp;t=1768842096186"></a> -->
   </div>
 </div>
 
 <div class="vp-doc" style="text-align: center; margin: 4rem auto 3rem; max-width: 1000px; padding: 0 16px;">
   <h3 style="margin: 0 0 24px; font-weight: 600; font-size: 1.2em;">特別謝辞</h3>
-  <a href="https://github.com/Nagi-ovo/gemini-voyager">
-    <img src="https://raw.githubusercontent.com/Nagi-ovo/gemini-voyager/main/docs/public/assets/sponsors.svg" width="1000px" style="margin: 0 auto;" />
+  <a href="https://github.com/hayashishungenn/chatgpt-voyager">
+    <img src="https://raw.githubusercontent.com/hayashishungenn/chatgpt-voyager/main/docs/public/assets/sponsors.svg" width="1000px" style="margin: 0 auto;" />
   </a>
   <p style="margin-top: 24px; font-size: 1.05em; opacity: 0.86;">✨ Product Hunt にて公開中！ご意見やフィードバックをお待ちしております。❤️</p>
   <div style="margin-top: 12px; display: flex; justify-content: center;">
-    <a href="https://www.producthunt.com/posts/gemini-voyager" target="_blank" rel="noopener noreferrer"><img alt="Gemini Voyager on Product Hunt" width="250" height="54" src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1064704&amp;theme=light&amp;t=1768842096186"></a>
+    <a href="https://www.producthunt.com/posts/chatgpt-voyager" target="_blank" rel="noopener noreferrer"><img alt="ChatGPT Voyager on Product Hunt" width="250" height="54" src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1064704&amp;theme=light&amp;t=1768842096186"></a>
   </div>
 </div>
 
@@ -97,5 +97,6 @@ features:
 </div>
 
 <p align="center">
-  <img src="https://count.getloli.com/@gemini-voyager?name=gemini-voyager&theme=rule34&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=auto" width="400">
+  <img src="https://count.getloli.com/@chatgpt-voyager?name=chatgpt-voyager&theme=rule34&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=auto" width="400">
 </p>
+

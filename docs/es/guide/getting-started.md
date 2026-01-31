@@ -1,12 +1,12 @@
 # Bienvenido a Bordo
 
 Felicidades. Tu flujo de trabajo acaba de subir de categoría.
-Gemini Voyager no es solo una herramienta, es un hábito. Dame 5 minutos para enseñarte.
+ChatGPT Voyager no es solo una herramienta, es un hábito. Dame 5 minutos para enseñarte.
 
 ## 1. Preparación
 
 ¿Aún no lo has instalado? Ve a la [Guía de Instalación](/es/guide/installation).
-¿Instalado? Recarga la página de Gemini. El cambio es inmediato.
+¿Instalado? Recarga la página de ChatGPT. El cambio es inmediato.
 
 ## 2. Navegación
 
@@ -47,3 +47,4 @@ Profundiza en cada función:
 - [Maestro de Carpetas](/es/guide/folders)
 - [Gestiona Prompts](/es/guide/prompts)
 - [Domina tus Datos](/es/guide/export)
+

@@ -1,9 +1,9 @@
 //
 //  SafariMessage.swift
-//  Gemini Voyager Safari Extension
+//  ChatGPT Voyager Safari Extension
 //
-//  Created for Gemini Voyager
-//  https://github.com/Nagi-ovo/gemini-voyager
+//  Created for ChatGPT Voyager
+//  https://github.com/hayashishungenn/chatgpt-voyager
 //
 
 import Foundation
@@ -112,3 +112,4 @@ struct AnyCodable: Codable {
         }
     }
 }
+

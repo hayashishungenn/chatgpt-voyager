@@ -2,7 +2,7 @@
  * Fetch Interceptor - Injected into MAIN world
  *
  * This script runs in the page context (MAIN world) to intercept native fetch calls.
- * It catches Gemini download requests and modifies them to fetch the original resolution image
+ * It catches image download requests and modifies them to fetch the original resolution image
  * without watermark parameters.
  *
  * The script respects the user's watermark remover setting and communicates with the
@@ -18,24 +18,24 @@
 
   // Prevent double injection
   if (window.__gvFetchInterceptorInstalled) {
-    console.log('[Gemini Voyager] Fetch interceptor already installed, skipping');
+    console.log('[ChatGPT Voyager] Fetch interceptor already installed, skipping');
     return;
   }
   window.__gvFetchInterceptorInstalled = true;
 
-  console.log('[Gemini Voyager] Fetch interceptor loading (MAIN world)...');
+  console.log('[ChatGPT Voyager] Fetch interceptor loading (MAIN world)...');
 
   /**
-   * Pattern to match Gemini download URLs
+   * Pattern to match image download URLs (Google-hosted legacy flow)
    * Matches both rd-gg and rd-gg-dl paths
    * Reference: /^https:\/\/lh3\.googleusercontent\.com\/rd-gg(?:-dl)?\/.+=s(?!0-d\?).* /
    * We use a slightly broader pattern to ensure we catch all download attempts
    */
-  const GEMINI_DOWNLOAD_PATTERN = /^https:\/\/lh3\.googleusercontent\.com\/rd-gg(?:-dl)?\//;
+  const IMAGE_DOWNLOAD_PATTERN = /^https:\/\/lh3\.googleusercontent\.com\/rd-gg(?:-dl)?\//;
 
   /**
    * Replace size parameter with =s0 for original size
-   * Gemini uses =sNNN format for resized images, =s0 means original
+   * Google-hosted images use =sNNN format for resized images, =s0 means original
    */
   const replaceWithOriginalSize = (src) => {
     // Match =sNNN and replace with =s0 (but keep the rest of the URL)
@@ -88,8 +88,8 @@
   window.fetch = async function (...args) {
     const url = typeof args[0] === 'string' ? args[0] : args[0]?.url;
 
-    // Check if this is a Gemini download request (specifically rd-gg-dl for downloads)
-    if (url && typeof url === 'string' && GEMINI_DOWNLOAD_PATTERN.test(url)) {
+    // Check if this is a Google-hosted download request (specifically rd-gg-dl for downloads)
+    if (url && typeof url === 'string' && IMAGE_DOWNLOAD_PATTERN.test(url)) {
       // Replace with original size URL
       const origSizeUrl = replaceWithOriginalSize(url);
 
@@ -115,7 +115,7 @@
 
       // Only process watermark removal if enabled
       if (isWatermarkRemoverEnabled()) {
-        console.log('[Gemini Voyager] Intercepting download for watermark removal');
+        console.log('[ChatGPT Voyager] Intercepting download for watermark removal');
 
         // Declare response and blob outside try block so they're accessible in catch
         let response, blob;
@@ -168,7 +168,7 @@
                         .catch(reject);
                   }
                 } catch (e) {
-                  console.warn('[Gemini Voyager] Failed to parse bridge response:', e);
+                  console.warn('[ChatGPT Voyager] Failed to parse bridge response:', e);
                 }
               }
             });
@@ -198,7 +198,7 @@
             headers: response.headers,
           });
         } catch (error) {
-          console.warn('[Gemini Voyager] Watermark processing failed, using original:', error);
+          console.warn('[ChatGPT Voyager] Watermark processing failed, using original:', error);
           updateStatus('ERROR', { message: error.message || 'Unknown error' });
           // Return the original blob if available, otherwise fall through to originalFetch
           if (blob && response) {
@@ -217,5 +217,6 @@
     return originalFetch.apply(this, args);
   };
 
-  console.log('[Gemini Voyager] Fetch interceptor active');
+  console.log('[ChatGPT Voyager] Fetch interceptor active');
 })();
+

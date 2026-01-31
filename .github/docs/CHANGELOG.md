@@ -38,7 +38,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Resolved peer dependency conflicts
 - **Export correctness**
   - Fixed duplicate inclusion of code blocks/tables in Markdown
-  - Fixed export button causing navigation back to `/app` on Gemini
+  - Fixed export button causing navigation back to `/app` on ChatGPT
   - Addressed missing assistant content by adding last-chance plaintext fallback
   - Avoid CORS failures for images in Markdown by packaging images into ZIP (with relative paths)
 
@@ -74,3 +74,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - API changed from `chrome.*` to `browser.*`
 - Storage now uses Promises (async/await)
 - New Safari build commands available
+

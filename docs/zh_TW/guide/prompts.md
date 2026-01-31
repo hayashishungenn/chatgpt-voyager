@@ -24,4 +24,5 @@
 打開庫，搜標籤，點一下插入。
 一鍵調用，效率翻倍。
 
-![提示詞管理器](/assets/gemini-prompt-manager.png)
+![提示詞管理器](/assets/ChatGPT-prompt-manager.png)
+

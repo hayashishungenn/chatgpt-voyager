@@ -1,7 +1,7 @@
 # Time Travel
 
 Long conversations are messy. You scroll up, you scroll down, you lose your place.
-Gemini Voyager turns your conversation into a timeline.
+ChatGPT Voyager turns your conversation into a timeline.
 
 ## See the Shape of Your Chat
 
@@ -22,7 +22,7 @@ Each node represents a message. The timeline visualizes the rhythm of your dialo
 
 Don't want to use the mouse? Use your keyboard.
 
-**It's like turning on Vim mode in Gemini.**
+**It's like turning on Vim mode in ChatGPT.**
 
 ### Default Shortcuts
 
@@ -36,3 +36,4 @@ Any key, any combo. `n`/`p`? `,`/`.`? Your call.
 
 **Flow mode**: Rapid presses queue up smoothly.
 **Jump mode**: Instant response, max speed.
+

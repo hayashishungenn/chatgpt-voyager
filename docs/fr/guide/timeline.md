@@ -1,7 +1,7 @@
 # Voyage dans le Temps
 
 Les longues conversations sont désordonnées. Vous faites défiler vers le haut, vers le bas, vous perdez le fil.
-Gemini Voyager transforme votre conversation en une chronologie.
+ChatGPT Voyager transforme votre conversation en une chronologie.
 
 ## Visualisez la Forme de Votre Chat
 
@@ -22,7 +22,7 @@ Chaque nœud représente un message. La chronologie visualise le rythme de votre
 
 Vous ne voulez pas utiliser la souris ? Utilisez votre clavier.
 
-**C'est comme activer le mode Vim dans Gemini.**
+**C'est comme activer le mode Vim dans ChatGPT.**
 
 ### Raccourcis par Défaut
 
@@ -36,3 +36,4 @@ N'importe quelle touche, n'importe quelle combinaison. `n`/`p` ? `,`/`.` ? À vo
 
 **Mode Flux** : Les appuis rapides s'enchaînent de manière fluide.
 **Mode Saut** : Réponse instantanée, vitesse maximale.
+

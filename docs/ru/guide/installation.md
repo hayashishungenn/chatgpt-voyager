@@ -2,7 +2,7 @@
 
 Выберите свой путь.
 
-> ⚠️ Примечание: Менеджер промптов — единственная функция, поддерживающая Gemini для Enterprise.
+> ⚠️ Примечание: Менеджер промптов — единственная функция, поддерживающая ChatGPT для Enterprise.
 
 ## 1. Магазины расширений (Рекомендуется)
 
@@ -10,15 +10,15 @@
 
 **Chrome / Brave / Opera / Vivaldi:**
 
-[<img src="https://img.shields.io/badge/Chrome_Web_Store-Download-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Установить из Chrome Web Store" height="40"/>](https://chromewebstore.google.com/detail/kjdpnimcnfinmilocccippmododhceol)
+[<img src="https://img.shields.io/badge/Chrome_Web_Store-Download-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Установить из Chrome Web Store" height="40"/>](https://github.com/hayashishungenn/chatgpt-voyager/releases)
 
 **Microsoft Edge:**
 
-[<img src="https://img.shields.io/badge/Microsoft_Edge-Download-0078D7?style=for-the-badge&logo=microsoft-edge&logoColor=white" alt="Установить из Microsoft Edge Add-ons" height="40"/>](https://microsoftedge.microsoft.com/addons/detail/gemini-voyager/gibmkggjijalcjinbdhcpklodjkhhlne)
+[<img src="https://img.shields.io/badge/Microsoft_Edge-Download-0078D7?style=for-the-badge&logo=microsoft-edge&logoColor=white" alt="Установить из Microsoft Edge Add-ons" height="40"/>](https://github.com/hayashishungenn/chatgpt-voyager/releases)
 
 **Firefox:**
 
-[<img src="https://img.shields.io/badge/Firefox_Add--ons-Download-FF7139?style=for-the-badge&logo=firefox&logoColor=white" alt="Установить из Firefox Add-ons" height="40"/>](https://addons.mozilla.org/firefox/addon/gemini-voyager/)
+[<img src="https://img.shields.io/badge/Firefox_Add--ons-Download-FF7139?style=for-the-badge&logo=firefox&logoColor=white" alt="Установить из Firefox Add-ons" height="40"/>](https://github.com/hayashishungenn/chatgpt-voyager/releases)
 
 ## 2. Ручной способ (Новейшие функции)
 
@@ -26,7 +26,7 @@
 
 **Для Chrome / Edge / Brave / Opera:**
 
-1. Скачайте последний `gemini-voyager-chrome-vX.Y.Z.zip` из [GitHub Releases](https://github.com/Nagi-ovo/gemini-voyager/releases).
+1. Скачайте последний `chatgpt-voyager-chrome-vX.Y.Z.zip` из [GitHub Releases](https://github.com/hayashishungenn/chatgpt-voyager/releases).
 2. Распакуйте файл.
 3. Откройте страницу Расширений вашего браузера (`chrome://extensions`).
 4. Включите **Режим разработчика** (вверху справа).
@@ -34,7 +34,7 @@
 
 **Для Firefox:**
 
-1. Скачайте последний `gemini-voyager-firefox-vX.Y.Z.xpi` из [Releases](https://github.com/Nagi-ovo/gemini-voyager/releases).
+1. Скачайте последний `chatgpt-voyager-firefox-vX.Y.Z.xpi` из [Releases](https://github.com/hayashishungenn/chatgpt-voyager/releases).
 2. Откройте Менеджер дополнений (`about:addons`).
 3. Перетащите файл `.xpi` для установки (или нажмите значок шестеренки ⚙️ -> **Установить дополнение из файла**).
 
@@ -42,15 +42,17 @@
 
 ## 3. Safari (macOS)
 
-1. Скачайте `gemini-voyager-safari-vX.Y.Z.zip` из [Releases](https://github.com/Nagi-ovo/gemini-voyager/releases).
+1. Скачайте `chatgpt-voyager-safari-vX.Y.Z.zip` из [Releases](https://github.com/hayashishungenn/chatgpt-voyager/releases).
 2. Распакуйте файл.
 3. Выполните следующую команду в Терминале для конвертации (требуется Xcode):
    ```bash
-   xcrun safari-web-extension-converter dist_safari --macos-only --app-name "Gemini Voyager"
+   xcrun safari-web-extension-converter dist_safari --macos-only --app-name "ChatGPT Voyager"
    ```
 4. Запустите приложение в Xcode для установки.
 5. Включите в Настройки Safari > Расширения.
 
 ---
 
-_Настройка для разработки? Если вы разработчик и хотите внести свой вклад, ознакомьтесь с нашим [Руководством по участию](https://github.com/Nagi-ovo/gemini-voyager/blob/main/.github/CONTRIBUTING.md)._
+_Настройка для разработки? Если вы разработчик и хотите внести свой вклад, ознакомьтесь с нашим [Руководством по участию](https://github.com/hayashishungenn/chatgpt-voyager/blob/main/.github/CONTRIBUTING.md)._
+
+

@@ -11,7 +11,7 @@
 
 ## 使用方法
 
-1. 在 Gemini 上打开一个 Deep Research 对话
+1. 在 ChatGPT 上打开一个 Deep Research 对话
 2. 点击对话的**分享和导出**按钮
 3. 选择 "下载 Thinking 内容" (Download thinking content)
 4. Markdown 文件将自动下载
@@ -63,3 +63,4 @@
 ## 隐私保护
 
 所有提取和格式化操作都 100% 在浏览器本地完成。不会向外部服务器发送任何数据。
+

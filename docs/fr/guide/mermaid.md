@@ -4,7 +4,7 @@ Rendez automatiquement le code Mermaid sous forme de diagrammes visuels.
 
 ## Aperçu
 
-Lorsque Gemini produit des blocs de code Mermaid (organigrammes, diagrammes de séquence, diagrammes de Gantt, etc.), Voyager les détecte et les rend automatiquement sous forme de diagrammes interactifs.
+Lorsque ChatGPT produit des blocs de code Mermaid (organigrammes, diagrammes de séquence, diagrammes de Gantt, etc.), Voyager les détecte et les rend automatiquement sous forme de diagrammes interactifs.
 
 ### Fonctionnalités Clés
 
@@ -15,7 +15,7 @@ Lorsque Gemini produit des blocs de code Mermaid (organigrammes, diagrammes de s
 
 ## Comment Utiliser
 
-1. Demandez à Gemini de générer n'importe quel code de diagramme Mermaid.
+1. Demandez à ChatGPT de générer n'importe quel code de diagramme Mermaid.
 2. Le bloc de code est automatiquement remplacé par le diagramme rendu.
 3. Cliquez sur le bouton **</> Code** pour voir le code source.
 4. Cliquez sur le bouton **📊 Diagramme** pour revenir à la vue diagramme.
@@ -32,3 +32,4 @@ Lorsque Gemini produit des blocs de code Mermaid (organigrammes, diagrammes de s
 <div align="center">
   <img src="/assets/mermaid-preview.png" alt="Rendu diagramme Mermaid" style="max-width: 100%; border-radius: 8px;"/>
 </div>
+

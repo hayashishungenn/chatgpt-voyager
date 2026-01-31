@@ -11,7 +11,7 @@ Export the complete "thinking" content from Deep Research conversations as beaut
 
 ## How to Use
 
-1. Open a Deep Research conversation on Gemini
+1. Open a Deep Research conversation on ChatGPT
 2. Click the **Share & Export** button in the conversation
 3. Select "Download thinking content" (下载 Thinking 内容)
 4. The Markdown file will be automatically downloaded
@@ -63,3 +63,4 @@ Thought content...
 ## Privacy
 
 All extraction and formatting happens 100% locally in your browser. No data is sent to external servers.
+

@@ -5,7 +5,7 @@
 
 ## Экспортируйте все
 
-Gemini Voyager позволяет вам извлечь ваши данные из облака и взять их в свои руки.
+ChatGPT Voyager позволяет вам извлечь ваши данные из облака и взять их в свои руки.
 
 ### Форматы
 
@@ -15,7 +15,7 @@ Gemini Voyager позволяет вам извлечь ваши данные и
 
 ### Как экспортировать
 
-1. Найдите **Значок экспорта** рядом с логотипом Gemini.
+1. Найдите **Значок экспорта** рядом с логотипом ChatGPT.
 2. Выберите формат.
 3. Готово.
 
@@ -24,10 +24,11 @@ Gemini Voyager позволяет вам извлечь ваши данные и
 <div style="display: flex; gap: 20px; margin-top: 20px;">
   <div style="flex: 1; text-align: center;">
     <p><b>Шаг 1: Кнопка</b></p>
-    <img src="/assets/gemini-export-guide-1.png" alt="Руководство по экспорту шаг 1" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);"/>
+    <img src="/assets/ChatGPT-export-guide-1.png" alt="Руководство по экспорту шаг 1" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);"/>
   </div>
   <div style="flex: 1; text-align: center;">
     <p><b>Шаг 2: Выбор</b></p>
-    <img src="/assets/gemini-export-guide-2.png" alt="Руководство по экспорту шаг 2" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);"/>
+    <img src="/assets/ChatGPT-export-guide-2.png" alt="Руководство по экспорту шаг 2" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);"/>
   </div>
 </div>
+

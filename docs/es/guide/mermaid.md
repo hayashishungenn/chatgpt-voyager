@@ -4,7 +4,7 @@ Renderiza automáticamente código Mermaid en gráficos visuales.
 
 ## Introducción
 
-Cuando Gemini genera un bloque de código Mermaid (como diagramas de flujo, diagramas de secuencia, diagramas de Gantt, etc.), Voyager lo detectará y renderizará automáticamente como un gráfico interactivo.
+Cuando ChatGPT genera un bloque de código Mermaid (como diagramas de flujo, diagramas de secuencia, diagramas de Gantt, etc.), Voyager lo detectará y renderizará automáticamente como un gráfico interactivo.
 
 ### Características Principales
 
@@ -15,7 +15,7 @@ Cuando Gemini genera un bloque de código Mermaid (como diagramas de flujo, diag
 
 ## Cómo Usar
 
-1. Pídele a Gemini que genere cualquier código de gráfico Mermaid.
+1. Pídele a ChatGPT que genere cualquier código de gráfico Mermaid.
 2. El bloque de código será reemplazado automáticamente por el gráfico renderizado.
 3. Haz clic en el botón **</> Code** para ver el código original.
 4. Haz clic en el botón **📊 Diagram** para volver a la vista de gráfico.
@@ -32,3 +32,4 @@ Cuando Gemini genera un bloque de código Mermaid (como diagramas de flujo, diag
 <div align="center">
   <img src="/assets/mermaid-preview.png" alt="Renderizado de Gráficos Mermaid" style="max-width: 100%; border-radius: 8px;"/>
 </div>
+

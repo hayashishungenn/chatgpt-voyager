@@ -1,12 +1,12 @@
 # 欢迎登船
 
 恭喜。你的工作流刚刚升舱了。
-Gemini Voyager 不只是工具，它是种习惯。给我 5 分钟，带你上手。
+ChatGPT Voyager 不只是工具，它是种习惯。给我 5 分钟，带你上手。
 
 ## 1. 就位
 
 还没装？去 [安装指南](/guide/installation)。
-装好了？刷新 Gemini 页面。变化立竿见影。
+装好了？刷新 ChatGPT 页面。变化立竿见影。
 
 ## 2. 穿梭
 
@@ -47,3 +47,4 @@ Gemini Voyager 不只是工具，它是种习惯。给我 5 分钟，带你上�
 - [精通文件夹](/guide/folders)
 - [管理提示词](/guide/prompts)
 - [掌握数据](/guide/export)
+
