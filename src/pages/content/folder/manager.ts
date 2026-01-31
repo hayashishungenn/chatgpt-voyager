@@ -5064,7 +5064,6 @@ export class FolderManager {
 
           return;
         }
-        }
 
         // ChatGPT-style link matching
         const link = (conv as HTMLElement).querySelector(
@@ -5636,3 +5635,4 @@ export class FolderManager {
     }, 3000);
   }
 }
+
