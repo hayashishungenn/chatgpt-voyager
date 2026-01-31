@@ -1,0 +1,63 @@
+/**
+ * Common types used throughout the application
+ * Following strict type safety principles
+ */
+
+export type Result<T, E = Error> = { success: true; data: T } | { success: false; error: E };
+
+export interface IDisposable {
+  dispose(): void;
+}
+
+export interface ILogger {
+  debug(message: string, context?: Record<string, unknown>): void;
+  info(message: string, context?: Record<string, unknown>): void;
+  warn(message: string, context?: Record<string, unknown>): void;
+  error(message: string, context?: Record<string, unknown>): void;
+}
+
+export type Nullable<T> = T | null;
+export type Optional<T> = T | undefined;
+export type Maybe<T> = T | null | undefined;
+
+/**
+ * Brand type for type-safe IDs
+ */
+export type Brand<K, T> = K & { __brand: T };
+
+export type ConversationId = Brand<string, 'ConversationId'>;
+export type FolderId = Brand<string, 'FolderId'>;
+export type TurnId = Brand<string, 'TurnId'>;
+
+/**
+ * Storage keys - centralized for type safety
+ */
+export const StorageKeys = {
+  // Folder system
+  FOLDER_DATA: 'gvFolderData',
+  FOLDER_DATA_AISTUDIO: 'gvFolderDataAIStudio',
+
+  // Timeline
+  TIMELINE_SCROLL_MODE: 'chatgptTimelineScrollMode',
+  TIMELINE_HIDE_CONTAINER: 'chatgptTimelineHideContainer',
+  TIMELINE_DRAGGABLE: 'chatgptTimelineDraggable',
+  TIMELINE_POSITION: 'chatgptTimelinePosition',
+  TIMELINE_STARRED_MESSAGES: 'chatgptTimelineStarredMessages',
+  TIMELINE_SHORTCUTS: 'chatgptTimelineShortcuts',
+
+  // UI customization
+  CHAT_WIDTH: 'chatgptChatWidth',
+
+  // Prompt Manager
+  PROMPT_ITEMS: 'gvPromptItems',
+  PROMPT_PANEL_LOCKED: 'gvPromptPanelLocked',
+  PROMPT_PANEL_POSITION: 'gvPromptPanelPosition',
+  PROMPT_TRIGGER_POSITION: 'gvPromptTriggerPosition',
+  PROMPT_CUSTOM_WEBSITES: 'gvPromptCustomWebsites',
+
+  // Global settings
+  LANGUAGE: 'language',
+  FORMULA_COPY_FORMAT: 'gvFormulaCopyFormat',
+} as const;
+
+export type StorageKey = (typeof StorageKeys)[keyof typeof StorageKeys];
