@@ -74,8 +74,8 @@ function showExtractModal(text: string, urls: string[]): void {
   modal.className = "cvoy-modal";
   modal.innerHTML = `
     <div class="cvoy-modal-header">
-      <span class="cvoy-modal-title">🔬 Deep Research Extract</span>
-      <button class="cvoy-btn cvoy-btn-ghost" id="cvoy-research-close" style="font-size:18px;padding:0 6px;border:none;cursor:pointer;background:none">×</button>
+      <span class="cvoy-modal-title">Deep Research Extract</span>
+      <button class="cvoy-btn cvoy-btn-ghost" id="cvoy-research-close" style="font-size:18px;padding:0 6px;border:none;cursor:pointer;background:none">Close</button>
     </div>
     <div class="cvoy-modal-body">
       <div style="display:flex;gap:8px;margin-bottom:12px">
@@ -105,14 +105,14 @@ function showExtractModal(text: string, urls: string[]): void {
   modal.querySelector("#cvoy-research-close")!.addEventListener("click", () => overlay.remove());
   modal.querySelector("#cvoy-research-copy-text")!.addEventListener("click", async () => {
     await navigator.clipboard.writeText(text);
-    (modal.querySelector("#cvoy-research-copy-text") as HTMLButtonElement).textContent = "✓ Copied!";
+    (modal.querySelector("#cvoy-research-copy-text") as HTMLButtonElement).textContent = "Copied";
   });
 
   const copyUrlsBtn = modal.querySelector("#cvoy-research-copy-urls");
   if (copyUrlsBtn) {
     copyUrlsBtn.addEventListener("click", async () => {
       await navigator.clipboard.writeText(urls.join("\n"));
-      (copyUrlsBtn as HTMLButtonElement).textContent = "✓ Copied!";
+      (copyUrlsBtn as HTMLButtonElement).textContent = "Copied";
     });
   }
 }

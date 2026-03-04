@@ -33,7 +33,7 @@ function createTimelinePanel(): void {
     timelinePanel = document.createElement("div");
     timelinePanel.id = "cvoy-timeline";
     timelinePanel.className = "cvoy-timeline-panel";
-    timelinePanel.setAttribute("title", "ChatGPT Voyager Timeline — Click a node to jump to message");
+    timelinePanel.setAttribute("title", "ChatGPT Voyager Timeline - Click a node to jump to a message");
 
     document.body.appendChild(timelinePanel);
 }
@@ -92,7 +92,7 @@ async function renderTimeline(): Promise<void> {
         // Tooltip with message preview
         const previewText = (msg.textContent ?? "").trim().slice(0, 60);
         if (previewText) {
-            node.title = `${isUser ? "You" : "ChatGPT"}: ${previewText}${previewText.length >= 60 ? "…" : ""}`;
+            node.title = `${isUser ? "You" : "ChatGPT"}: ${previewText}${previewText.length >= 60 ? "..." : ""}`;
         }
 
         timelinePanel!.appendChild(node);

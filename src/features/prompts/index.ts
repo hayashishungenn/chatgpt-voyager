@@ -27,7 +27,7 @@ function injectPromptButton(): void {
   btn.id = "cvoy-prompt-btn";
   btn.type = "button";
   btn.className = "cvoy-prompt-btn";
-  btn.title = "Prompt Vault — ChatGPT Voyager";
+  btn.title = "Prompt Vault - ChatGPT Voyager";
   btn.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>`;
   btn.addEventListener("click", openVaultModal);
 
@@ -67,14 +67,14 @@ function renderVaultModal(): void {
   modal.className = "cvoy-modal";
   modal.innerHTML = `
     <div class="cvoy-modal-header">
-      <span class="cvoy-modal-title">💡 Prompt Vault</span>
+      <span class="cvoy-modal-title">Prompt Vault</span>
       <div style="display:flex;gap:8px">
         <button id="cvoy-vault-new" class="cvoy-btn cvoy-btn-primary" style="font-size:12px;padding:4px 10px">+ New Prompt</button>
-        <button id="cvoy-vault-close" class="cvoy-btn-ghost" style="width:28px;height:28px;padding:0;display:flex;align-items:center;justify-content:center;border:none;cursor:pointer;background:none;font-size:18px;color:var(--cvoy-text-muted)">×</button>
+        <button id="cvoy-vault-close" class="cvoy-btn-ghost" style="width:48px;height:28px;padding:0;display:flex;align-items:center;justify-content:center;border:none;cursor:pointer;background:none;font-size:12px;color:var(--cvoy-text-muted)">Close</button>
       </div>
     </div>
     <div style="padding:12px 20px 0">
-      <input id="cvoy-vault-search" class="cvoy-input" placeholder="Search prompts…" value="${escapeHtml(searchQuery)}" />
+      <input id="cvoy-vault-search" class="cvoy-input" placeholder="Search prompts..." value="${escapeHtml(searchQuery)}" />
     </div>
     <div class="cvoy-modal-body" id="cvoy-vault-list">
       ${renderPromptList()}
@@ -119,13 +119,13 @@ function renderPromptList(): string {
       <div style="display:flex;align-items:flex-start;gap:8px">
         <div style="flex:1;min-width:0">
           <div style="font-weight:600;font-size:14px;color:var(--cvoy-text);margin-bottom:4px">${escapeHtml(p.title)}</div>
-          <div style="font-size:12px;color:var(--cvoy-text-muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${escapeHtml(p.content.slice(0, 100))}${p.content.length > 100 ? "…" : ""}</div>
+          <div style="font-size:12px;color:var(--cvoy-text-muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${escapeHtml(p.content.slice(0, 100))}${p.content.length > 100 ? "..." : ""}</div>
           ${p.tags.length ? `<div style="margin-top:6px;display:flex;gap:4px;flex-wrap:wrap">${p.tags.map((t) => `<span style="background:var(--cvoy-bg-secondary);padding:1px 6px;border-radius:4px;font-size:10px;color:var(--cvoy-text-muted)">${escapeHtml(t)}</span>`).join("")}</div>` : ""}
         </div>
         <div style="display:flex;gap:4px;flex-shrink:0">
-          <button class="cvoy-btn-ghost cvoy-prompt-use" data-prompt-id="${p.id}" title="Use prompt" style="font-size:11px;padding:3px 7px;border:1px solid var(--cvoy-border);border-radius:6px;cursor:pointer;background:none;color:var(--cvoy-text)">Use ↵</button>
-          <button class="cvoy-btn-ghost cvoy-prompt-edit" data-prompt-id="${p.id}" title="Edit" style="font-size:11px;padding:3px 7px;border:1px solid var(--cvoy-border);border-radius:6px;cursor:pointer;background:none;color:var(--cvoy-text)">✏️</button>
-          <button class="cvoy-btn-ghost cvoy-prompt-del" data-prompt-id="${p.id}" title="Delete" style="font-size:11px;padding:3px 7px;border:1px solid #ef4444;border-radius:6px;cursor:pointer;background:none;color:#ef4444">✕</button>
+          <button class="cvoy-btn-ghost cvoy-prompt-use" data-prompt-id="${p.id}" title="Use prompt" style="font-size:11px;padding:3px 7px;border:1px solid var(--cvoy-border);border-radius:6px;cursor:pointer;background:none;color:var(--cvoy-text)">Use</button>
+          <button class="cvoy-btn-ghost cvoy-prompt-edit" data-prompt-id="${p.id}" title="Edit" style="font-size:11px;padding:3px 7px;border:1px solid var(--cvoy-border);border-radius:6px;cursor:pointer;background:none;color:var(--cvoy-text)">Edit</button>
+          <button class="cvoy-btn-ghost cvoy-prompt-del" data-prompt-id="${p.id}" title="Delete" style="font-size:11px;padding:3px 7px;border:1px solid #ef4444;border-radius:6px;cursor:pointer;background:none;color:#ef4444">Delete</button>
         </div>
       </div>
     </div>
@@ -183,13 +183,13 @@ function showEditForm(prompt: Prompt | null): void {
   modal.innerHTML = `
     <div class="cvoy-modal-header">
       <span class="cvoy-modal-title">${prompt ? "Edit Prompt" : "New Prompt"}</span>
-      <button id="cvoy-vault-back" class="cvoy-btn cvoy-btn-secondary" style="font-size:12px;padding:4px 10px">← Back</button>
+      <button id="cvoy-vault-back" class="cvoy-btn cvoy-btn-secondary" style="font-size:12px;padding:4px 10px">Back</button>
     </div>
     <div class="cvoy-modal-body">
       <label style="display:block;margin-bottom:4px;font-size:13px;font-weight:500">Title</label>
       <input id="cvoy-prompt-title" class="cvoy-input" style="margin-bottom:12px" placeholder="My Prompt" value="${escapeHtml(prompt?.title ?? "")}" />
       <label style="display:block;margin-bottom:4px;font-size:13px;font-weight:500">Content</label>
-      <textarea id="cvoy-prompt-content" class="cvoy-input cvoy-textarea" style="min-height:120px;margin-bottom:12px" placeholder="Enter your prompt here…">${escapeHtml(prompt?.content ?? "")}</textarea>
+      <textarea id="cvoy-prompt-content" class="cvoy-input cvoy-textarea" style="min-height:120px;margin-bottom:12px" placeholder="Enter your prompt here...">${escapeHtml(prompt?.content ?? "")}</textarea>
       <label style="display:block;margin-bottom:4px;font-size:13px;font-weight:500">Tags (comma-separated)</label>
       <input id="cvoy-prompt-tags" class="cvoy-input" placeholder="coding, writing, analysis" value="${escapeHtml((prompt?.tags ?? []).join(", "))}" />
     </div>

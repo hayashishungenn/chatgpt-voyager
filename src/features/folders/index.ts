@@ -45,10 +45,10 @@ function injectFolderUI(): void {
     const header = document.createElement("div");
     header.className = "cvoy-folder-header";
     header.innerHTML = `
-    <span>📂 Folders</span>
+    <span>Folders</span>
     <div style="display:flex;gap:4px">
       <button id="cvoy-add-folder" title="New Folder" style="background:none;border:none;cursor:pointer;padding:0 4px;font-size:14px;color:inherit">+</button>
-      <button id="cvoy-toggle-batch" title="Batch Delete" style="background:none;border:none;cursor:pointer;padding:0 4px;font-size:12px;color:inherit" title="Batch delete">✓</button>
+      <button id="cvoy-toggle-batch" title="Batch Delete" style="background:none;border:none;cursor:pointer;padding:0 4px;font-size:12px;color:inherit">Batch</button>
     </div>
   `;
 
@@ -110,7 +110,7 @@ function createFolderElement(folder: Folder, depth: number): HTMLElement {
     const isExpanded = expandedFolders.has(folder.id);
 
     item.innerHTML = `
-    <span style="font-size:10px;color:var(--cvoy-text-muted);width:12px">${hasChildren ? (isExpanded ? "▾" : "▸") : ""
+    <span style="font-size:10px;color:var(--cvoy-text-muted);width:12px">${hasChildren ? (isExpanded ? "v" : ">") : ""
         }</span>
     <span class="cvoy-folder-color-dot" style="background:${folder.color}"></span>
     <span class="cvoy-folder-name">${escapeHtml(folder.name)}</span>
@@ -189,17 +189,17 @@ function showFolderContextMenu(folder: Folder, x: number, y: number): void {
     contextMenu.style.top = y + "px";
 
     const menuItems = [
-        { label: "✏️ Rename", action: () => renameFolderDialog(folder) },
-        { label: "📁 Add Subfolder", action: () => showCreateFolderDialog(folder.id) },
-        { label: "🎨 Change Color", action: () => changeColorMenu(folder, contextMenu!) },
+        { label: "Rename", action: () => renameFolderDialog(folder) },
+        { label: "Add Subfolder", action: () => showCreateFolderDialog(folder.id) },
+        { label: "Change Color", action: () => changeColorMenu(folder, contextMenu!) },
         {
-            label: "🔗 Move to Root", action: async () => {
+            label: "Move to Root", action: async () => {
                 folder.parentId = null;
                 await saveFolders(folders);
                 renderFolderList();
             }, hidden: !folder.parentId
         },
-        { label: "🗑️ Delete Folder", action: () => deleteFolderDialog(folder), danger: true },
+        { label: "Delete Folder", action: () => deleteFolderDialog(folder), danger: true },
     ];
 
     menuItems
@@ -362,7 +362,7 @@ async function batchDeleteSelected(): Promise<void> {
     for (const convId of selectedConvIds) {
         const item = document.querySelector(`${SELECTORS.sidebar} li a[href="/c/${convId}"]`)?.closest("li");
         if (item) {
-            // Right-click menu → delete via ChatGPT's UI
+            // Right-click menu -> delete via ChatGPT's UI
             const moreBtn = item.querySelector('button[aria-label*="options" i], button[aria-label*="more" i]') as HTMLButtonElement | null;
             if (moreBtn) {
                 moreBtn.click();

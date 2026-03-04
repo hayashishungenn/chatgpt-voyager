@@ -62,7 +62,7 @@ async function copyText(text: string, btn: HTMLButtonElement): Promise<void> {
     try {
         await navigator.clipboard.writeText(text);
         const original = btn.textContent;
-        btn.textContent = "✓ Copied!";
+        btn.textContent = "Copied";
         btn.style.color = "var(--cvoy-primary)";
         setTimeout(() => {
             btn.textContent = original;
