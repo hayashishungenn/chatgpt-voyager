@@ -14,15 +14,15 @@ if (!fs.existsSync(iconDir)) fs.mkdirSync(iconDir, { recursive: true });
 async function generateIcons() {
     for (const size of sizes) {
 
-        // Voyager star icon concept
+        // Voyager star icon concept - Black and White
         const svgString = `<svg width="${size}" height="${size}" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="128" height="128" rx="28" fill="url(#paint0_linear)"/>
 <path d="M64 24C64 46.0914 46.0914 64 24 64C46.0914 64 64 81.9086 64 104C64 81.9086 81.9086 64 104 64C81.9086 64 64 46.0914 64 24Z" fill="white"/>
-<circle cx="64" cy="64" r="12" fill="#10a37f"/>
+<circle cx="64" cy="64" r="12" fill="#212121"/>
 <defs>
 <linearGradient id="paint0_linear" x1="0" y1="0" x2="128" y2="128" gradientUnits="userSpaceOnUse">
-<stop stop-color="#10a37f"/>
-<stop offset="1" stop-color="#065f46"/>
+<stop stop-color="#212121"/>
+<stop offset="1" stop-color="#000000"/>
 </linearGradient>
 </defs>
 </svg>`;

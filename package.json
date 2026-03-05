@@ -1,6 +1,6 @@
 {
   "name": "chatgpt-voyager",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "An all-in-one enhancement suite for ChatGPT - timeline navigation, folder management, prompt library, and chat export in one powerful extension.",
   "license": "GPL-3.0",
   "type": "module",
