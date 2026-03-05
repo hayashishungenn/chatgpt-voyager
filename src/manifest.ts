@@ -28,7 +28,6 @@ const manifest: ManifestV3Export = {
         {
             matches: ["https://chatgpt.com/*"],
             js: ["src/content/index.ts"],
-            css: ["src/styles/content.css"],
             run_at: "document_idle",
         },
     ],

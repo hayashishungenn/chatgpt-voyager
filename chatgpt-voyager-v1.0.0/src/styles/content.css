@@ -1,0 +1,529 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ChatGPT Voyager Content Styles */
+:root {
+  --cvoy-primary: #10a37f;
+  --cvoy-primary-hover: #0d8a6c;
+  --cvoy-bg: #ffffff;
+  --cvoy-bg-secondary: #f7f7f8;
+  --cvoy-border: #e5e5e5;
+  --cvoy-text: #0d0d0d;
+  --cvoy-text-muted: #6b7280;
+  --cvoy-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+  --cvoy-radius: 12px;
+}
+
+/* Dark mode support */
+html.dark,
+[data-theme="dark"],
+body.dark {
+  --cvoy-bg: #212121;
+  --cvoy-bg-secondary: #2f2f2f;
+  --cvoy-border: #3f3f3f;
+  --cvoy-text: #ececec;
+  --cvoy-text-muted: #9b9b9b;
+  --cvoy-shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
+}
+
+/* Folder Sidebar */
+.cvoy-folder-section {
+  padding: 8px 0;
+  border-bottom: 1px solid var(--cvoy-border);
+  margin-bottom: 4px;
+}
+
+.cvoy-folder-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 12px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--cvoy-text-muted);
+  cursor: pointer;
+  user-select: none;
+}
+
+.cvoy-folder-header:hover {
+  color: var(--cvoy-text);
+}
+
+.cvoy-folder-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 12px 5px 20px;
+  font-size: 14px;
+  color: var(--cvoy-text);
+  cursor: pointer;
+  border-radius: 6px;
+  margin: 0 4px;
+  transition: background 0.15s;
+  user-select: none;
+}
+
+.cvoy-folder-item:hover {
+  background: var(--cvoy-bg-secondary);
+}
+
+.cvoy-folder-item.active {
+  background: var(--cvoy-bg-secondary);
+}
+
+.cvoy-folder-color-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.cvoy-folder-name {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.cvoy-folder-count {
+  font-size: 11px;
+  color: var(--cvoy-text-muted);
+  flex-shrink: 0;
+}
+
+.cvoy-subfolder {
+  padding-left: 28px;
+}
+
+/* Drag over highlight */
+.cvoy-drop-target {
+  outline: 2px dashed var(--cvoy-primary);
+  outline-offset: -2px;
+}
+
+/* Timeline Panel */
+.cvoy-timeline-panel {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+  padding: 8px 4px;
+  background: var(--cvoy-bg);
+  border: 1px solid var(--cvoy-border);
+  border-right: none;
+  border-radius: var(--cvoy-radius) 0 0 var(--cvoy-radius);
+  box-shadow: var(--cvoy-shadow);
+  max-height: calc(100vh - 120px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-width: none;
+  transition: opacity 0.2s;
+}
+
+.cvoy-timeline-panel::-webkit-scrollbar {
+  display: none;
+}
+
+.cvoy-timeline-node {
+  position: relative;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 2px solid var(--cvoy-border);
+  background: var(--cvoy-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.15s;
+  flex-shrink: 0;
+  color: var(--cvoy-text-muted);
+}
+
+.cvoy-timeline-node:hover {
+  border-color: var(--cvoy-primary);
+  color: var(--cvoy-primary);
+  transform: scale(1.15);
+}
+
+.cvoy-timeline-node.user-node {
+  background: var(--cvoy-primary);
+  border-color: var(--cvoy-primary);
+  color: #fff;
+}
+
+.cvoy-timeline-node.user-node:hover {
+  background: var(--cvoy-primary-hover);
+  border-color: var(--cvoy-primary-hover);
+  color: #fff;
+}
+
+.cvoy-timeline-node.starred {
+  background: #f59e0b;
+  border-color: #f59e0b;
+  color: #fff;
+}
+
+.cvoy-timeline-connector {
+  width: 2px;
+  height: 12px;
+  background: var(--cvoy-border);
+  flex-shrink: 0;
+}
+
+/* Prompt Vault */
+.cvoy-prompt-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  border: 1px solid var(--cvoy-border);
+  background: var(--cvoy-bg);
+  color: var(--cvoy-text-muted);
+  cursor: pointer;
+  transition: all 0.15s;
+  flex-shrink: 0;
+}
+
+.cvoy-prompt-btn:hover {
+  border-color: var(--cvoy-primary);
+  color: var(--cvoy-primary);
+  background: var(--cvoy-bg-secondary);
+}
+
+/* Modal */
+.cvoy-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 9998;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(4px);
+  animation: cvoy-fadein 0.15s ease;
+}
+
+.cvoy-modal {
+  background: var(--cvoy-bg);
+  border: 1px solid var(--cvoy-border);
+  border-radius: var(--cvoy-radius);
+  box-shadow: var(--cvoy-shadow);
+  z-index: 9999;
+  width: min(600px, 95vw);
+  max-height: min(700px, 90vh);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  animation: cvoy-slidein 0.2s ease;
+}
+
+.cvoy-modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--cvoy-border);
+  flex-shrink: 0;
+}
+
+.cvoy-modal-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--cvoy-text);
+}
+
+.cvoy-modal-body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 16px 20px;
+}
+
+.cvoy-modal-footer {
+  padding: 12px 20px;
+  border-top: 1px solid var(--cvoy-border);
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+  flex-shrink: 0;
+}
+
+/* Buttons */
+.cvoy-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s;
+  border: 1px solid transparent;
+}
+
+.cvoy-btn-primary {
+  background: var(--cvoy-primary);
+  color: #fff;
+  border-color: var(--cvoy-primary);
+}
+
+.cvoy-btn-primary:hover {
+  background: var(--cvoy-primary-hover);
+  border-color: var(--cvoy-primary-hover);
+}
+
+.cvoy-btn-secondary {
+  background: transparent;
+  color: var(--cvoy-text);
+  border-color: var(--cvoy-border);
+}
+
+.cvoy-btn-secondary:hover {
+  background: var(--cvoy-bg-secondary);
+}
+
+.cvoy-btn-ghost {
+  background: transparent;
+  color: var(--cvoy-text-muted);
+  border-color: transparent;
+  padding: 4px 8px;
+}
+
+.cvoy-btn-ghost:hover {
+  background: var(--cvoy-bg-secondary);
+  color: var(--cvoy-text);
+}
+
+.cvoy-btn-danger {
+  background: transparent;
+  color: #ef4444;
+  border-color: #ef4444;
+}
+
+.cvoy-btn-danger:hover {
+  background: #ef4444;
+  color: #fff;
+}
+
+/* Input */
+.cvoy-input {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid var(--cvoy-border);
+  border-radius: 8px;
+  background: var(--cvoy-bg);
+  color: var(--cvoy-text);
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.15s;
+}
+
+.cvoy-input:focus {
+  border-color: var(--cvoy-primary);
+}
+
+.cvoy-input::placeholder {
+  color: var(--cvoy-text-muted);
+}
+
+.cvoy-textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+/* Export button */
+.cvoy-export-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  background: var(--cvoy-bg-secondary);
+  color: var(--cvoy-text);
+  border: 1px solid var(--cvoy-border);
+  transition: all 0.15s;
+}
+
+.cvoy-export-btn:hover {
+  border-color: var(--cvoy-primary);
+  color: var(--cvoy-primary);
+}
+
+/* Quote Reply floating button */
+.cvoy-quote-btn {
+  position: fixed;
+  z-index: 5000;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  background: var(--cvoy-primary);
+  color: #fff;
+  border: none;
+  box-shadow: var(--cvoy-shadow);
+  transition: background 0.15s;
+}
+
+.cvoy-quote-btn:hover {
+  background: var(--cvoy-primary-hover);
+}
+
+/* Formula copy button */
+.cvoy-formula-copy-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 11px;
+  cursor: pointer;
+  background: var(--cvoy-bg-secondary);
+  color: var(--cvoy-text-muted);
+  border: 1px solid var(--cvoy-border);
+  margin-left: 4px;
+  vertical-align: middle;
+  transition: all 0.15s;
+}
+
+.cvoy-formula-copy-btn:hover {
+  color: var(--cvoy-primary);
+  border-color: var(--cvoy-primary);
+}
+
+/* Batch delete */
+.cvoy-batch-checkbox {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+  accent-color: var(--cvoy-primary);
+  cursor: pointer;
+}
+
+.cvoy-batch-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 12px;
+  background: var(--cvoy-bg-secondary);
+  border-top: 1px solid var(--cvoy-border);
+  font-size: 12px;
+  color: var(--cvoy-text-muted);
+}
+
+/* Animations */
+@keyframes cvoy-fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes cvoy-slidein {
+  from {
+    opacity: 0;
+    transform: translateY(-12px) scale(0.97);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* Context menu */
+.cvoy-context-menu {
+  position: fixed;
+  z-index: 9999;
+  background: var(--cvoy-bg);
+  border: 1px solid var(--cvoy-border);
+  border-radius: 8px;
+  box-shadow: var(--cvoy-shadow);
+  padding: 4px;
+  min-width: 160px;
+  animation: cvoy-fadein 0.1s ease;
+}
+
+.cvoy-context-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 12px;
+  border-radius: 6px;
+  font-size: 13px;
+  color: var(--cvoy-text);
+  cursor: pointer;
+  transition: background 0.1s;
+}
+
+.cvoy-context-item:hover {
+  background: var(--cvoy-bg-secondary);
+}
+
+.cvoy-context-item.danger {
+  color: #ef4444;
+}
+
+.cvoy-context-item.danger:hover {
+  background: #fef2f2;
+}
+
+/* Deep Research extract button */
+.cvoy-research-extract-btn {
+  margin-top: 4px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 10px;
+  border-radius: 6px;
+  font-size: 11px;
+  cursor: pointer;
+  background: var(--cvoy-bg-secondary);
+  color: var(--cvoy-text-muted);
+  border: 1px solid var(--cvoy-border);
+  transition: all 0.15s;
+}
+
+.cvoy-research-extract-btn:hover {
+  color: var(--cvoy-primary);
+  border-color: var(--cvoy-primary);
+}
+
+/* Collapsed input indicator */
+.cvoy-input-collapsed #prompt-textarea {
+  transition: max-height 0.3s ease;
+  max-height: 40px;
+  overflow: hidden;
+}
+
+.cvoy-input-collapsed #prompt-textarea:focus-within {
+  max-height: 200px;
+}
+
+/* Hide recents section */
+body.cvoy-hide-recents [data-testid="history-item-0"],
+body.cvoy-hide-recents .cvoy-recents-section {
+  display: none !important;
+}

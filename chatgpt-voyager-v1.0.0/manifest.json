@@ -1,0 +1,111 @@
+{
+  "manifest_version": 3,
+  "name": "ChatGPT Voyager",
+  "version": "1.0.0",
+  "description": "An all-in-one enhancement suite for ChatGPT - timeline navigation, folder management, prompt library, and chat export.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_popup": "src/popup/popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "background": {
+    "service_worker": "service-worker-loader.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "assets/index.ts-loader-BDypfLV5.js"
+      ],
+      "matches": [
+        "https://chatgpt.com/*"
+      ],
+      "css": [
+        "src/styles/content.css"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "permissions": [
+    "storage",
+    "tabs",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://chatgpt.com/*"
+  ],
+  "web_accessible_resources": [
+    {
+      "matches": [
+        "https://chatgpt.com/*"
+      ],
+      "resources": [
+        "icons/*",
+        "assets/*",
+        "assets/storage-G_NSCLrW.js",
+        "assets/mermaid.core-mHttblf5.js",
+        "assets/index.ts-CJEaNC9h.js",
+        "assets/katex-D_ht-G0j.js",
+        "assets/dagre-6UL2VRFP-K9Qb0KS2.js",
+        "assets/cose-bilkent-S5V4N54A-BggtfpnS.js",
+        "assets/c4Diagram-YG6GDRKO-B-YCE02Z.js",
+        "assets/flowDiagram-NV44I4VS-reAqrkvk.js",
+        "assets/erDiagram-Q2GNP2WA-CGja_s8x.js",
+        "assets/gitGraphDiagram-V2S2FVAM-Dm-4_JO4.js",
+        "assets/ganttDiagram-JELNMOA3-CbkxcigY.js",
+        "assets/infoDiagram-HS3SLOUP-C5z8hPNr.js",
+        "assets/pieDiagram-ADFJNKIX-o_-DOLIW.js",
+        "assets/quadrantDiagram-AYHSOK5B-BOF9T2Sv.js",
+        "assets/xychartDiagram-PRI3JC2R-BCBNPTFS.js",
+        "assets/requirementDiagram-UZGBJVZJ-Dthf6ZZF.js",
+        "assets/sequenceDiagram-WL72ISMW-BBYlDEvI.js",
+        "assets/classDiagram-2ON5EDUG-DR0HRfgH.js",
+        "assets/classDiagram-v2-WZHVMYZB-DR0HRfgH.js",
+        "assets/stateDiagram-FKZM4ZOC-BpnaplTr.js",
+        "assets/stateDiagram-v2-4FDKWEC3-BVH6FLC3.js",
+        "assets/journeyDiagram-XKPGCS4Q-DT8RUfQ6.js",
+        "assets/timeline-definition-IT6M3QCI-zzqkdAin.js",
+        "assets/mindmap-definition-VGOIOE7T-BhxcCGGT.js",
+        "assets/kanban-definition-3W4ZIXB7-BRx6Ni8x.js",
+        "assets/sankeyDiagram-TZEHDZUN-BU0r7mUz.js",
+        "assets/diagram-S2PKOQOG-GCvQcwpb.js",
+        "assets/diagram-QEK2KX5R-DB7KKBtE.js",
+        "assets/blockDiagram-VD42YOAC-OQ7YFNoh.js",
+        "assets/architectureDiagram-VXUJARFQ-DbT_Y7UA.js",
+        "assets/diagram-PSM6KHXK-O7DcPVNU.js",
+        "assets/graph-DpMLG2DD.js",
+        "assets/layout-DhGvmPNW.js",
+        "assets/_baseUniq-eR8-2dxm.js",
+        "assets/clone-Bac-2uLi.js",
+        "assets/_basePickBy-DDCPv3Hi.js",
+        "assets/cytoscape.esm-DGeaJFcL.js",
+        "assets/chunk-TZMSLE5B-CLP1_6S6.js",
+        "assets/chunk-FMBD7UC4-CXUA86L7.js",
+        "assets/chunk-55IACEB6-DuZXCYV-.js",
+        "assets/chunk-QN33PNHL-CwLZE7T8.js",
+        "assets/channel-DhcX0Jq9.js",
+        "assets/chunk-4BX2VUAB-DP56AsJF.js",
+        "assets/chunk-QZHKN3VN-Bes8MzTf.js",
+        "assets/treemap-GDKQZRPO-f2iOl2SH.js",
+        "assets/linear-jnIBRwd3.js",
+        "assets/init-ZxktEp_H.js",
+        "assets/defaultLocale-B2RvLBDe.js",
+        "assets/arc-D2zuseAY.js",
+        "assets/ordinal-DSZU4PqD.js",
+        "assets/chunk-B4BG7PRW-BwlzSDw5.js",
+        "assets/chunk-DI55MBZ5-wOLz-e4v.js"
+      ],
+      "use_dynamic_url": false
+    }
+  ]
+}

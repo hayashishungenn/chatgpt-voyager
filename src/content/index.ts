@@ -8,6 +8,8 @@ import { destroyTimeline, initTimeline } from "../features/timeline";
 import { getSettings } from "../storage";
 import { SELECTORS, getCurrentConversationId } from "./chatgpt-selectors";
 
+import "../styles/content.css";
+
 let lastConvId: string | null = null;
 let initialized = false;
 
