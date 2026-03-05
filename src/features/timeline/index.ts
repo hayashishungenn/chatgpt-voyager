@@ -73,7 +73,10 @@ async function renderTimeline(): Promise<void> {
         const node = document.createElement("div");
         node.className = `cvoy-timeline-node${isUser ? " user-node" : ""}${isStarred ? " starred" : ""}`;
         node.title = isUser ? `User message ${Math.ceil((index + 1) / 2)}` : `AI response ${Math.ceil(index / 2)}`;
-        node.textContent = isUser ? "U" : "A";
+
+        const userIcon = `<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>`;
+        const aiIcon = `<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"></path><path d="M5 3v4"></path><path d="M19 17v4"></path><path d="M3 5h4"></path><path d="M17 19h4"></path></svg>`;
+        node.innerHTML = isUser ? userIcon : aiIcon;
         node.dataset.msgIndex = String(index);
 
         node.addEventListener("click", (e) => {
