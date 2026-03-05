@@ -76,7 +76,7 @@ function App() {
                 <div className="popup-logo">CV</div>
                 <div>
                     <div className="popup-title">ChatGPT Voyager</div>
-                    <div className="popup-version">v1.0.3 | Active on chatgpt.com</div>
+                    <div className="popup-version">v1.0.0 | Active on chatgpt.com</div>
                 </div>
                 {saved && <span className="status-badge" style={{ marginLeft: "auto" }}>Saved</span>}
             </div>

@@ -3,7 +3,7 @@ import type { ManifestV3Export } from "@crxjs/vite-plugin";
 const manifest: ManifestV3Export = {
     manifest_version: 3,
     name: "ChatGPT Voyager",
-    version: "1.0.3",
+    version: "1.0.0",
     description: "An all-in-one enhancement suite for ChatGPT - timeline navigation, folder management, prompt library, and chat export.",
     icons: {
         "16": "icons/icon16.png",
