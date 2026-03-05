@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./icons/icon128.png" width="128" height="128" alt="ChatGPT Voyager Logo" />
+  <img src="./icons/icon128.png?v=1.0.2" width="128" height="128" alt="ChatGPT Voyager Logo" />
   <h1>ChatGPT Voyager</h1>
   <p>An all-in-one enhancement suite for the ChatGPT web interface.</p>
 </div>
